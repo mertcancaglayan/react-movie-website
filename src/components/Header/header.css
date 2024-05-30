@@ -1,0 +1,81 @@
+header {
+	background-color: rgb(0, 0, 0, 0.5);
+
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 30px 80px;
+	transition: 0.5 ease-in-out;
+	z-index: 9999;
+}
+
+header.scrolled {
+	background-color: rgb(0, 0, 0, 0.5);
+	border: 0 0 3px solid black;
+	backdrop-filter: blur(20px);
+	padding: 15px 80px;
+}
+
+.logo {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 35px;
+	color: white;
+	letter-spacing: 2px;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+.nav {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.nav li {
+	list-style: none;
+	margin: 0 15px;
+}
+
+.nav li a {
+	color: white;
+	text-decoration: none;
+	letter-spacing: 1px;
+	cursor: pointer;
+	transition: 0.4s ease-in-out;
+}
+
+.nav li a:hover,
+.nav li a:active {
+	color: aqua;
+}
+
+.search .search-icon {
+	color: aliceblue;
+	width: 20%;
+	transition: 0.4s ease-in-out;
+	cursor: pointer;
+}
+
+.search .search-icon:hover {
+	color: gray;
+}
+
+.search input {
+	width: 80%;
+	height: 100%;
+	color: white;
+	background: transparent;
+	border: 1px solid rgb(255, 255, 255, 0.2);
+
+	outline: none;
+	border-radius: 5px;
+	padding: 10px 20px;
+	transition: 0.5s ease-in-out;
+}
+.search input:focus {
+	border: 1px solid white;
+}
