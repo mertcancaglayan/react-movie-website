@@ -57,4 +57,5 @@ const fetchMovieData = async () => {
 };
 
 const movies = await fetchMovieData();
+
 export default movies;
