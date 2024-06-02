@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import BannerItemList from "./BannerItemList";
 import NavigationButtons from "./NavigationButtons";
+import BannerTitle from "./BannerTitle";
 import "./banner.css";
 
 function Banner() {
@@ -21,9 +22,9 @@ function Banner() {
 		setTranslateX(translateX - 33.33333);
 	};
 
-  useEffect(()=> {
-    console.log(translateX);
-  },[translateX])
+	useEffect(() => {
+		console.log(translateX);
+	}, [translateX]);
 
 	return (
 		<div className="banner">
@@ -31,6 +32,7 @@ function Banner() {
 				<BannerItemList />
 			</div>
 			<NavigationButtons handlePrev={handlePrev} handleNext={handleNext} />
+			<BannerTitle />
 		</div>
 	);
 }

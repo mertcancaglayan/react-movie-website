@@ -1,5 +1,7 @@
 import React, { Fragment } from "react";
 import movies from "../../data/fetchMovieData";
+import imdblogo from "../../images/logos/imdblogo.png";
+import metalogo from "../../images/logos/metalogo.png";
 import "./banner.css";
 
 function BannerItemList() {
@@ -12,15 +14,21 @@ function BannerItemList() {
 						<p className="cardDescription">{movie.description}</p>
 
 						<div className="cardGenres">
-							{movie.genres.map((genre) => {
-								return <p>{genre}</p>;
+							{movie.genres.map((genre, index) => {
+								return <p className={`genre ${genre}`}>{genre}</p>;
 							})}
 						</div>
 						<div className="ratings">
-							<p className="metacriticsRating">{`MetaCritics: ${movie.metaScore}`}</p>
-							<p className="rating">{`IMDB: ${movie.rating}`}</p>
+							<div className="metaCritics">
+								<img src={metalogo} alt="metacritics logo" />
+								<p className="metacriticsRating">{`MetaCritics: ${movie.metaScore}`}</p>
+							</div>
+							<div className="imdb">
+								<img src={imdblogo} alt="metacritics logo" />
+								<p className="imdbRating">{`IMDB: ${movie.rating}`}</p>
+							</div>
 						</div>
-						<p className="cardRealseYear">{movie.releaseYear}</p>
+						<p className="cardRealseYear">{`RealseYear: ${movie.releaseYear}`}</p>
 					</div>
 					<img key={index} src={movie.img} alt={movie.title} className="bannerSliderImg" />
 				</div>
