@@ -1,17 +1,15 @@
 .banner {
 	display: flex;
-	align-items: center;
 	justify-content: center;
 	position: relative;
-	height: 80vh;
-	background-color: rgb(58, 55, 51);
+	height: 90vh;
 }
 
 .bannerSlider {
 	display: flex;
 	width: 90%;
 	max-width: 100%;
-	height: 100%;
+	height: 90%;
 	position: relative;
 	transition: transform 0.3s ease-in-out;
 }
@@ -23,7 +21,7 @@
 	justify-content: space-between;
 	color: aliceblue;
 	z-index: 8;
-	height: 100%;
+	height: 90%;
 	width: 100%;
 	pointer-events: none;
 }
@@ -59,63 +57,141 @@
 	flex-direction: column;
 	justify-content: space-between;
 	align-self: flex-end;
-	align-items: center;
-	background-color: rgba(10, 6, 1, 0.7);
-	padding: 25px 20px;
-	transition: 0.5s ease-in-out;
-	height: 60%;
+	background-color: rgba(10, 6, 1, 0.9);
+	padding: 0 20px;
+	max-height: 0;
+	overflow: hidden;
 	width: 100%;
+	gap: 10px;
+	font-family: "Playfair Display", serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+	text-shadow: -2px 4px 2px rgba(0, 0, 0, 0.6);
+	transition: padding 0.5s ease-in-out, max-height 0.7s ease-in-out;
 }
 
-/* .card:hover .cardContent {
-	height: 50%;
+.card:hover .cardContent {
+	padding-top: 25px;
+	padding-bottom: 25px;
+	max-height: 100%;
 	z-index: 2;
-
-} */
+}
 
 .cardTitle {
-	height: 10%;
 	font-size: 28px;
 	color: aliceblue;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	font-family: "Anton", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	text-shadow: -2px 4px 2px rgba(0, 0, 0, 0.6);
 }
 
 .cardDescription {
-	min-height: 30%;
 	font-size: 18px;
 	color: aliceblue;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	height: fit-content;
 }
 
 .cardRealseYear {
 	display: flex;
-	padding: 10px;
 	font-size: 15px;
 	color: aliceblue;
 }
 
 .cardGenres {
 	display: flex;
-	padding: 15px;
 	font-size: 20px;
 	color: aliceblue;
 	gap: 10px;
 }
 
+.cardGenres .genre {
+	padding: 10px;
+	background-color: brown;
+	border-radius: 5px;
+	text-shadow: none;
+	font-size: 12px;
+}
+
+.cardGenres .genre.Action {
+	background-color: chocolate;
+}
+
+.cardGenres .genre.Adventure {
+	background-color: darkcyan;
+}
+
+.cardGenres .genre.Sci-Fi {
+	background-color: darkolivegreen;
+}
+
+.cardGenres .genre.Comedy {
+	background-color: darkslateblue;
+}
+
+.cardGenres .genre.Animation {
+	background-color: coral;
+}
+
+.cardGenres .genre.Drama {
+	background-color: darkturquoise;
+}
+
+.cardGenres .genre.Fantasy {
+	background-color: darkmagenta;
+}
+
+.cardGenres .genre.Sport {
+	background-color: goldenrod;
+}
+
 .ratings {
 	display: flex;
-	padding: 15px;
-	font-size: 20px;
+	font-size: 15px;
 	color: aliceblue;
 	gap: 10px;
 }
+
+.ratings .metaCritics,
+.ratings .imdb {
+	display: flex;
+	gap: 5px;
+}
+
+.ratings > * > img {
+	width: 25px;
+}
+
 .bannerSliderImg {
 	width: 100%;
-	height: 100%;
+	height: 111%;
 	position: absolute;
 	z-index: -1;
+}
+
+.bannerTitleArea {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	color: aliceblue;
+	gap: 20px;
+	height: 10%;
+	width: 100%;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.8);
+	text-shadow: -2px 4px 2px rgba(0, 0, 0, 0.6);
+	font-size: 25px;
+	font-family: "Playfair Display", serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: 1px;
 }
