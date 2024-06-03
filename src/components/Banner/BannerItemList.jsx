@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import movies from "../../data/fetchMovieData";
+import {movies} from "../../data/fetchMovieData";
 import imdblogo from "../../images/logos/imdblogo.png";
 import metalogo from "../../images/logos/metalogo.png";
 import "./banner.css";
@@ -8,14 +8,14 @@ function BannerItemList() {
 	return (
 		<Fragment>
 			{movies.slice(0, 7).map((movie, index) => (
-				<div className="card">
+				<div className="card" key={index}>
 					<div className="cardContent">
 						<h3 className="cardTitle">{movie.title}</h3>
 						<p className="cardDescription">{movie.description}</p>
 
 						<div className="cardGenres">
 							{movie.genres.map((genre, index) => {
-								return <p className={`genre ${genre}`}>{genre}</p>;
+								return <p className={`genre ${genre}`} key={index}>{genre}</p>;
 							})}
 						</div>
 						<div className="ratings">

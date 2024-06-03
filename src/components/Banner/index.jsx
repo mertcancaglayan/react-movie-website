@@ -22,10 +22,6 @@ function Banner() {
 		setTranslateX(translateX - 33.33333);
 	};
 
-	useEffect(() => {
-		console.log(translateX);
-	}, [translateX]);
-
 	return (
 		<div className="banner">
 			<div className="bannerSlider" style={{ transform: `translateX(${translateX}%)` }} ref={sliderContainerRef}>
