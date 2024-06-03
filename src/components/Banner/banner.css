@@ -3,6 +3,7 @@
 	justify-content: center;
 	position: relative;
 	height: 90vh;
+	overflow: hidden;
 }
 
 .bannerSlider {
