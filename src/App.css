@@ -9,6 +9,7 @@
 
 body {
     background: black;
+    height: fit-content;
 }
 
 body::-webkit-scrollbar {
