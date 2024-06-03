@@ -1,19 +1,18 @@
 import React from "react";
-import movies from "../../data/fetchMovieData";
 
-function GalleryCard() {
+function GalleryCard({ category }) {
 	return (
 		<>
-			{movies.map((movie, index) => {
+			{category.map((element, index) => {
 				return (
-					<div className="galleryCard">
+					<div className="galleryCard" key={index}>
 						<div className="imgContainer">
-							<img src={movie.img} alt="gallery card img" />
+							<img src={element.img} alt="gallery card img" />
 						</div>
 						<div className="galleryCardContent">
-							<p>{`Year: ${movie.releaseYear}`}</p>
-							<p>{`Imdb: ${movie.rating}`}</p>
-							<h4>{movie.title}</h4>
+							<p>{`Year: ${element.releaseYear}`}</p>
+							<p>{`Imdb: ${element.rating}`}</p>
+							<h4>{element.title}</h4>
 						</div>
 					</div>
 				);

@@ -1,7 +1,7 @@
 import axios from "axios";
 
-const fetchMovieData = async () => {
-	let movieData;
+const fetchCineData = async () => {
+	let cineData;
 
 	const options = {
 		method: "GET",
@@ -19,23 +19,23 @@ const fetchMovieData = async () => {
 
 	try {
 		const response = await axios.request(options);
-		movieData = response.data;
+		cineData = response.data;
 	} catch (error) {
 		console.error(error);
-		return [];
+		return { movies: [], tvShows: [] };
 	}
 
-	function dataFilter(movieData) {
-		const filteredMovies = movieData.data.movies.edges.map((element, index) => {
-			const id = index + 1;
+	function dataFilter(cineData) {
+		const filteredMovies = cineData.data.movies.edges.map((element) => {
+			const id = element.node.id;
 			const metaScore = element.node.metacritic?.metascore?.score || "N/A";
 			const rating = element.node.ratingsSummary?.aggregateRating || "N/A";
-			const title = element.node.originalTitleText.text;
-			const description = element.node.plot.plotText.plainText;
-			const img = element.node.primaryImage.url;
-			const releaseYear = element.node.releaseYear.year;
-			const actors = element.node.principalCredits[0].credits.map((credit) => credit.name.nameText.text);
-			const genres = element.node.titleGenres.genres.map((genre) => genre.genre.text);
+			const title = element.node.originalTitleText?.text || "N/A";
+			const description = element.node.plot?.plotText?.plainText || "No description available";
+			const img = element.node.primaryImage?.url || "";
+			const releaseYear = element.node.releaseYear?.year || "N/A";
+			const actors = element.node.principalCredits[0]?.credits.map((credit) => credit.name?.nameText?.text) || [];
+			const genres = element.node.titleGenres?.genres.map((genre) => genre.genre?.text) || [];
 
 			return {
 				id: id,
@@ -50,12 +50,35 @@ const fetchMovieData = async () => {
 			};
 		});
 
-		return filteredMovies;
+		const filteredTvShows = cineData.data.tv.edges.map((element) => {
+			const id = element.node.id;
+			const metaScore = element.node.metacritic?.metascore?.score || "N/A";
+			const rating = element.node.ratingsSummary?.aggregateRating || "N/A";
+			const title = element.node.originalTitleText?.text || "N/A";
+			const description = element.node.plot?.plotText?.plainText || "No description available";
+			const img = element.node.primaryImage?.url || "";
+			const releaseYear = element.node.releaseYear?.year || "N/A";
+			const actors = element.node.principalCredits[0]?.credits.map((credit) => credit.name?.nameText?.text) || [];
+			const genres = element.node.titleGenres?.genres.map((genre) => genre.genre?.text) || [];
+
+			return {
+				id: id,
+				title: title,
+				description: description,
+				img: img,
+				releaseYear: releaseYear,
+				metaScore: metaScore,
+				rating: rating,
+				actors: actors.slice(0, 2),
+				genres: genres,
+			};
+		});
+		return { filteredMovies, filteredTvShows };
 	}
 
-	return dataFilter(movieData);
+	return dataFilter(cineData);
 };
 
-const movies = await fetchMovieData();
+const { filteredMovies: movies, filteredTvShows: tvShows } = await fetchCineData();
 
-export default movies;
+export { movies, tvShows };
