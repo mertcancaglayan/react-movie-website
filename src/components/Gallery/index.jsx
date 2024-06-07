@@ -1,23 +1,44 @@
 import React, { useState } from "react";
-import { BrowserRouter as Router} from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 import { faThumbsUp, faStar, faTrophy } from "@fortawesome/free-solid-svg-icons";
-import { movies, tvShows } from "../../data/fetchMovieData";
+import { popularMovies, popularTvShows } from "../../data/fetchMovieData";
+import recommendedMovies from "../../data/recommendedMovies";
+import recommendedTVShows from "../../data/recommendedTVShows";
+import topRatedMoviesData from "../../data/topRatedMovies";
+import topRatedTvShowsData from "../../data/topRatedTvShows";
 import "./gallery.css";
 import GalleryCard from "./GalleryCard";
 import GalleryHeader from "./GalleryHeader";
 
+
 function Gallery() {
+	const top20Movies = topRatedMoviesData.slice(0, 20);
+	const top20TvShows = topRatedTvShowsData.slice(0, 20);
+
 	const [categories, setCategories] = useState({
-		popular: movies,
-		recommended: movies,
-		top20: movies,
+		popular: popularMovies,
+		recommended: recommendedMovies,
+		top20: top20Movies,
 	});
 
 	const handleNavigation = (section, category) => {
-		setCategories((prev) => ({
-			...prev,
-			[section]: category === "movies" ? movies : tvShows,
-		}));
+		setCategories((prev) => {
+			if (section === "top20") {
+				return {
+					...prev,
+					top20: category === "movies" ? top20Movies : top20TvShows,
+				};
+			} else if (section === "recommended") {
+				return {
+					...prev,
+					recommended: category === "movies" ? recommendedMovies : recommendedTVShows,
+				};
+			}
+			return {
+				...prev,
+				[section]: category === "movies" ? popularMovies : popularTvShows,
+			};
+		});
 	};
 
 	return (

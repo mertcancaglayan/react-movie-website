@@ -40,7 +40,7 @@
 }
 
 .galleryCardContent {
-	padding: 5px 0;
+	padding: 2px 0;
 	height: 10%;
 	display: flex;
 	align-items: center;
@@ -58,7 +58,7 @@
 .galleryCardContent h4 {
 	padding: 0 9px;
 	width: 100%;
-	font-size: 15px;
+	font-size: clamp(1rem, 0.8vw, 1.2rem);
 	white-space: nowrap;
 	overflow: hidden;
 	text-overflow: ellipsis;
@@ -111,4 +111,23 @@
 .categoryBtns .btn:hover {
 	border: 1px groove rgb(139, 115, 7);
 	color: rgb(255, 218, 5);
+}
+
+
+@media screen and (max-width: 1444px) {
+	.banner {
+		height: 70vh;
+	}
+}
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+	.banner {
+		height: 60vh;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.banner {
+		height: 40vh;
+	}
 }

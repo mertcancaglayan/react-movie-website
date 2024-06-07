@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import {movies} from "../../data/fetchMovieData";
+import {popularMovies} from "../../data/fetchMovieData";
 import imdblogo from "../../images/logos/imdblogo.png";
 import metalogo from "../../images/logos/metalogo.png";
 import "./banner.css";
@@ -7,7 +7,7 @@ import "./banner.css";
 function BannerItemList() {
 	return (
 		<Fragment>
-			{movies.slice(0, 7).map((movie, index) => (
+			{popularMovies.slice(0, 7).map((movie, index) => (
 				<div className="card" key={index}>
 					<div className="cardContent">
 						<h3 className="cardTitle">{movie.title}</h3>
