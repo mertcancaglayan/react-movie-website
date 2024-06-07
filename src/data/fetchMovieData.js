@@ -79,6 +79,6 @@ const fetchCineData = async () => {
 	return dataFilter(cineData);
 };
 
-const { filteredMovies: movies, filteredTvShows: tvShows } = await fetchCineData();
+const { filteredMovies: popularMovies, filteredTvShows: popularTvShows } = await fetchCineData();
 
-export { movies, tvShows };
+export { popularMovies, popularTvShows };
