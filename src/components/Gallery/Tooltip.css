@@ -1,0 +1,118 @@
+.tooltip {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: start;
+	visibility: hidden;
+	width: 250px;
+	height: 200px;
+	background-color: rgb(53, 52, 52);
+	color: #fff;
+	text-align: center;
+	border-radius: 5px;
+	overflow: hidden;
+	position: absolute;
+	z-index: 5;
+	bottom: 50%;
+	opacity: 0;
+	transition: opacity 0.3s ease-in-out;
+}
+
+.galleryCard:hover .tooltip {
+	visibility: visible;
+	opacity: 1;
+	z-index: 5;
+}
+
+.tooltipText.title {
+	justify-self: start;
+	width: 100%;
+	padding: 5px;
+	background-color: rgb(22, 22, 22);
+	font-size: clamp(1rem, 0.8vw, 1.5rem);
+}
+
+.tooltipText.description {
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 5;
+	height: 40%;
+	width: 100%;
+	white-space: pre-line;
+	text-overflow: ellipsis;
+	font-size: clamp(0.8rem, 0.5vw, 1.2rem);
+	padding: 5px 10px;
+	overflow: hidden;
+	box-sizing: border-box;
+	border: 1px solid rgba(95, 94, 94, 0.5);
+}
+
+.tooltipText.actors,
+.genres {
+	color: yellowgreen;
+	list-style: none;
+	padding: 2px 5px;
+	display: flex;
+	flex-direction: row;
+	font-size: 0.8rem;
+	gap: 3px;
+	width: 100%;
+	border: 1px solid rgba(95, 94, 94, 0.5);
+}
+
+.tooltipText.actors li,
+.genres li {
+	color: rgb(224, 224, 223);
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	font-size: 0.8rem;
+	white-space: nowrap;
+	width: auto;
+}
+
+.tooltipText.actors li:last-child,
+.genres li:last-child {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	flex: 1;
+}
+
+.tooltipText.actors li::after,
+.genres li::after {
+	content: ",";
+}
+
+.tooltipText.actors li:last-child::after,
+.genres li:last-child::after {
+	content: none;
+}
+
+.tooltipText.details {
+	display: flex;
+	justify-content: space-around;
+	align-content: center;
+	padding: 5px 0;
+	width: 100%;
+	background-color: rgb(37, 37, 37);
+}
+
+.tooltipText.details .starIcon {
+	color: yellow;
+}
+
+.tooltipText.imdb {
+	display: flex;
+	align-content: center;
+	width: 50%;
+	font-size: clamp(0.7rem, 0.6vw, 1rem);
+}
+
+.tooltipText.imdb > * {
+	margin: 0 2px;
+}
+
+.tooltipText.year {
+	width: 50%;
+	font-size: clamp(0.7rem, 0.6vw, 1rem);
+}

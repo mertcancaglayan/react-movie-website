@@ -8,7 +8,8 @@
 }
 
 body {
-    background: black;
+    background-image: url(images/movie-background-collage.jpg);
+    background-size: cover;
     height: fit-content;
 }
 
