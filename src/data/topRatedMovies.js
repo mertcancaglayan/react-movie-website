@@ -28,6 +28,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=PLl99DlL6b4",
 		id: "tt0111161",
+		description:
+			"Imprisoned in the 1940s for the double murder of his wife and her lover, upstanding banker Andy Dufresne begins a new life at the Shawshank prison, where he puts his accounting skills to work for an amoral warden. During his long stretch in prison, Dufresne comes to be admired by the other inmates -- including an older prisoner named Red -- for his integrity and unquenchable sense of hope.",
 	},
 	{
 		rank: 2,
@@ -58,6 +60,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=UaVTIH8mujA",
 		id: "tt0068646",
+		description:
+			"Spanning the years 1945 to 1955, a chronicle of the fictional Italian-American Corleone crime family. When organized crime family patriarch, Vito Corleone barely survives an attempt on his life, his youngest son, Michael steps in to take care of the would-be killers, launching a campaign of bloody revenge.",
 	},
 	{
 		rank: 3,
@@ -88,6 +92,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=_PZpmTj1Q8Q&t=13s",
 		id: "tt0468569",
+		description:
+			"Batman raises the stakes in his war on crime. With the help of Lt. Jim Gordon and District Attorney Harvey Dent, Batman sets out to dismantle the remaining criminal organizations that plague the streets. The partnership proves to be effective, but they soon find themselves prey to a reign of chaos unleashed by a rising criminal mastermind known to the terrified citizens of Gotham as the Joker.",
 	},
 	{
 		rank: 4,
@@ -118,6 +124,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=9O1Iy9od7-A",
 		id: "tt0071562",
+		description:
+			"In the continuing saga of the Corleone crime family, a young Vito Corleone grows up in Sicily and in 1910s New York. In the 1950s, Michael Corleone attempts to expand the family business into Las Vegas, Hollywood and Cuba.",
 	},
 	{
 		rank: 5,
@@ -148,6 +156,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=TEN-2uTi2c0&t=2s",
 		id: "tt0050083",
+		description:
+			"The defense and the prosecution have rested and the jury is filing into the jury room to decide if a young Spanish-American is guilty or innocent of murdering his father. What begins as an open and shut case soon becomes a mini-drama of each of the jurors' prejudices and preconceptions about the trial, the accused, and each other.",
 	},
 	{
 		rank: 6,
@@ -178,6 +188,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=mxphAlJID9U",
 		id: "tt0108052",
+		description:
+			"The true story of how businessman Oskar Schindler saved over a thousand Jewish lives from the Nazis while they worked as slaves in his factory during World War II.",
 	},
 	{
 		rank: 7,
@@ -208,6 +220,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=r5X-hFf6Bwo",
 		id: "tt0167260",
+		description:
+			"Aragorn is revealed as the heir to the ancient kings as he, Gandalf and the other members of the broken fellowship struggle to save Gondor from Sauron's forces. Meanwhile, Frodo and Sam take the ring closer to the heart of Mordor, the dark lord's realm.",
 	},
 	{
 		rank: 8,
@@ -238,6 +252,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=tGpTpVyI_OQ",
 		id: "tt0110912",
+		description:
+			"A burger-loving hit man, his philosophical partner, a drug-addled gangster's moll and a washed-up boxer converge in this sprawling, comedic crime caper. Their adventures unfurl in three stories that ingeniously trip back and forth in time.",
 	},
 	{
 		rank: 9,
@@ -268,6 +284,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=V75dMMIW2B4",
 		id: "tt0120737",
+		description:
+			"Young hobbit Frodo Baggins, after inheriting a mysterious ring from his uncle Bilbo, must leave his home in order to keep it from falling into the hands of its evil creator. Along the way, a fellowship is formed to protect the ringbearer and make sure that the ring arrives at its final destination: Mt. Doom, the only place where it can be destroyed.",
 	},
 	{
 		rank: 10,
@@ -298,6 +316,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=WCN5JJY_wiA",
 		id: "tt0060196",
+		description:
+			"While the Civil War rages on between the Union and the Confederacy, three men – a quiet loner, a ruthless hitman, and a Mexican bandit – comb the American Southwest in search of a strongbox containing $200,000 in stolen gold.",
 	},
 	{
 		rank: 11,
@@ -328,6 +348,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=bLvqoHBptjg",
 		id: "tt0109830",
+		description:
+			"A man with a low IQ has accomplished great things in his life and been present during significant historic events—in each case, far exceeding what anyone imagined he could do. But despite all he has achieved, his one true love eludes him.",
 	},
 	{
 		rank: 12,
@@ -358,6 +380,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=BdJKm16Co6M",
 		id: "tt0137523",
+		description:
+			"A ticking-time-bomb insomniac and a slippery soap salesman channel primal male aggression into a shocking new form of therapy. Their concept catches on, with underground 'fight clubs' forming in every town, until an eccentric gets in the way and ignites an out-of-control spiral toward oblivion.",
 	},
 	{
 		rank: 13,
@@ -388,6 +412,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=YoHD9XEInc0",
 		id: "tt1375666",
+		description:
+			"Cobb, a skilled thief who commits corporate espionage by infiltrating the subconscious of his targets is offered a chance to regain his old life as payment for a task considered to be impossible: 'inception', the implantation of another person's idea into a target's subconscious.",
 	},
 	{
 		rank: 14,
@@ -418,6 +444,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=LbfMDwc4azU",
 		id: "tt0167261",
+		description:
+			"Frodo Baggins and the other members of the Fellowship continue on their sacred quest to destroy the One Ring--but on separate paths. Their destinies lie at two towers--Orthanc Tower in Isengard, where the corrupt wizard Saruman awaits, and Sauron's fortress at Barad-dur, deep within the dark lands of Mordor. Frodo and Sam are trekking to Mordor to destroy the One Ring of Power while Gimli, Legolas and Aragorn search for the orc-captured Merry and Pippin. All along, nefarious wizard Saruman awaits the Fellowship members at the Orthanc Tower in Isengard.",
 	},
 	{
 		rank: 15,
@@ -448,6 +476,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=JNwNXF9Y6kY",
 		id: "tt0080684",
+		description:
+			"The epic saga continues as Luke Skywalker, in hopes of defeating the evil Galactic Empire, learns the ways of the Jedi from aging master Yoda. But Darth Vader is more determined than ever to capture Luke. Meanwhile, rebel leader Princess Leia, cocky Han Solo, Chewbacca, and droids C-3PO and R2-D2 are thrown into various stages of capture, betrayal and despair.",
 	},
 	{
 		rank: 16,
@@ -478,6 +508,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=vKQi3bBA1y8",
 		id: "tt0133093",
+		description:
+			"Set in the 22nd century, The Matrix tells the story of a computer hacker who joins a group of underground insurgents fighting the vast and powerful computers who now rule the earth.",
 	},
 	{
 		rank: 17,
@@ -508,6 +540,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=2ilzidi_J8Q",
 		id: "tt0099685",
+		description:
+			"The true story of Henry Hill, a half-Irish, half-Sicilian Brooklyn kid who is adopted by neighbourhood gangsters at an early age and climbs the ranks of a Mafia family under the guidance of Jimmy Conway.",
 	},
 	{
 		rank: 18,
@@ -538,6 +572,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=OXrcDonY-B8",
 		id: "tt0073486",
+		description:
+			"A petty criminal fakes insanity to serve his sentence in a mental ward rather than prison. He soon finds himself as a leader to the other patients—and an enemy to the cruel, domineering nurse who runs the ward.",
 	},
 	{
 		rank: 19,
@@ -568,6 +604,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=znmZoVkCjpI",
 		id: "tt0114369",
+		description:
+			"Two homicide detectives are on a desperate hunt for a serial killer whose crimes are based on the 'seven deadly sins' in this dark and haunting film that takes viewers from the tortured remains of one victim to the next. The seasoned Det. Sommerset researches each sin in an effort to get inside the killer's mind, while his novice partner, Mills, scoffs at his efforts to unravel the case.",
 	},
 	{
 		rank: 20,
@@ -598,6 +636,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=wJ1TOratCTo",
 		id: "tt0047478",
+		description:
+			"A samurai answers a village's request for protection after he falls on hard times. The town needs protection from bandits, so the samurai gathers six others to help him teach the people how to defend themselves, and the villagers provide the soldiers with food. A giant battle occurs when 40 bandits attack the village.",
 	},
 	{
 		rank: 21,
@@ -628,6 +668,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=iLR3gZrU2Xo",
 		id: "tt0038650",
+		description:
+			"A holiday favourite for generations... George Bailey has spent his entire life giving to the people of Bedford Falls. All that prevents rich skinflint Mr. Potter from taking over the entire town is George's modest building and loan company. But on Christmas Eve the business's $8,000 is lost and George's troubles begin.",
 	},
 	{
 		rank: 22,
@@ -658,6 +700,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=6iB21hsprAQ",
 		id: "tt0102926",
+		description:
+			"Clarice Starling is a top student at the FBI's training academy. Jack Crawford wants Clarice to interview Dr. Hannibal Lecter, a brilliant psychiatrist who is also a violent psychopath, serving life behind bars for various acts of murder and cannibalism. Crawford believes that Lecter may have insight into a case and that Starling, as an attractive young woman, may be just the bait to draw him out.",
 	},
 	{
 		rank: 23,
@@ -688,6 +732,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=dcUOO4Itgmw",
 		id: "tt0317248",
+		description:
+			"In the slums of Rio, two kids' paths diverge as one struggles to become a photographer and the other a kingpin.",
 	},
 	{
 		rank: 24,
@@ -718,6 +764,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=9CiW_DgxCnQ",
 		id: "tt0120815",
+		description:
+			"As U.S. troops storm the beaches of Normandy, three brothers lie dead on the battlefield, with a fourth trapped behind enemy lines. Ranger captain John Miller and seven men are tasked with penetrating German-held territory and bringing the boy home.",
 	},
 	{
 		rank: 25,
@@ -748,6 +796,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=8CTjcVr9Iao",
 		id: "tt0118799",
+		description:
+			"As U.S. troops storm the beaches of Normandy, three brothers lie dead on the battlefield, with a fourth trapped behind enemy lines. Ranger captain John Miller and seven men are tasked with penetrating German-held territory and bringing the boy home.",
 	},
 	{
 		rank: 26,
@@ -778,6 +828,8 @@ const topRatedMovies = [
 		],
 		trialer: "https://www.youtube.com/watch?v=Ki4haFrqSrw",
 		id: "tt0120689",
+		description:
+			"A supernatural tale set on death row in a Southern prison, where gentle giant John Coffey possesses the mysterious power to heal people's ailments. When the cell block's head guard, Paul Edgecomb, recognizes Coffey's miraculous gift, he tries desperately to help stave off the condemned man's execution.",
 	},
 	{
 		rank: 27,
@@ -808,6 +860,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=zSWdZVtXT7E&t=2s",
 		id: "tt0816692",
+		description:
+			"The adventures of a group of explorers who make use of a newly discovered wormhole to surpass the limitations on human space travel and conquer the vast distances involved in an interstellar voyage.",
 	},
 	{
 		rank: 28,
@@ -838,6 +892,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=vZ734NWnAHA",
 		id: "tt0076759",
+		description:
+			"Princess Leia is captured and held hostage by the evil Imperial forces in their effort to take over the galactic Empire. Venturesome Luke Skywalker and dashing captain Han Solo team together with the loveable robot duo R2-D2 and C-3PO to rescue the beautiful princess and restore peace and justice in the Empire.",
 	},
 	{
 		rank: 29,
@@ -868,6 +924,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=CRRlbK5w8AE",
 		id: "tt0103064",
+		description:
+			"Princess Leia is captured and held hostage by the evil Imperial forces in their effort to take over the galactic Empire. Venturesome Luke Skywalker and dashing captain Han Solo team together with the loveable robot duo R2-D2 and C-3PO to rescue the beautiful princess and restore peace and justice in the Empire.",
 	},
 	{
 		rank: 30,
@@ -898,6 +956,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=qvsgGtivCgs",
 		id: "tt0088763",
+		description:
+			"Set ten years after the events of the original, James Cameron’s classic sci-fi action flick tells the story of a second attempt to get the rid of rebellion leader John Connor, this time targeting the boy himself. However, the rebellion has sent a reprogrammed terminator to protect Connor.",
 	},
 	{
 		rank: 31,
@@ -928,6 +988,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=ByXuk9QqQkk",
 		id: "tt0245429",
+		description:
+			"A young girl, Chihiro, becomes trapped in a strange new world of spirits. When her parents undergo a mysterious transformation, she must call upon the courage she never knew she had to free her family.",
 	},
 	{
 		rank: 32,
@@ -958,6 +1020,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=NG3-GlvKPcg",
 		id: "tt0054215",
+		description:
+			"When larcenous real estate clerk Marion Crane goes on the lam with a wad of cash and hopes of starting a new life, she ends up at the notorious Bates Motel, where manager Norman Bates cares for his housebound mother.",
 	},
 	{
 		rank: 33,
@@ -988,6 +1052,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=BFwGqLa_oAo",
 		id: "tt0253474",
+		description:
+			"When larcenous real estate clerk Marion Crane goes on the lam with a wad of cash and hopes of starting a new life, she ends up at the notorious Bates Motel, where manager Norman Bates cares for his housebound mother.",
 	},
 	{
 		rank: 34,
@@ -1018,6 +1084,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=aNQqoExfQsg",
 		id: "tt0110413",
+		description:
+			"The true story of pianist Władysław Szpilman's experiences in Warsaw during the Nazi occupation. When the Jews of the city find themselves forced into a ghetto, Szpilman finds work playing in a café; and when his family is deported in 1942, he stays behind, works for a while as a laborer, and eventually goes into hiding in the ruins of the war-torn city.",
 	},
 	{
 		rank: 35,
@@ -1048,6 +1116,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=isOGD_7hNIY",
 		id: "tt6751668",
+		description:
+			"All unemployed, Ki-taek's family takes peculiar interest in the wealthy and glamorous Parks for their livelihood until they get entangled in an unexpected incident.",
 	},
 	{
 		rank: 36,
@@ -1078,6 +1148,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=lFzVJEksoDY",
 		id: "tt0110357",
+		description:
+			"A young lion prince is cast out of his pride by his cruel uncle, who claims he killed his father. While the uncle rules with an iron paw, the prince grows up beyond the Savannah, living by a philosophy: No worries for the rest of your days. But when his past comes to haunt him, the young prince must decide his fate: Will he remain an outcast or face his demons and become what he needs to be?",
 	},
 	{
 		rank: 37,
@@ -1108,6 +1180,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=P5ieIbInFpg",
 		id: "tt0172495",
+		description:
+			"In the year 180, the death of emperor Marcus Aurelius throws the Roman Empire into chaos. Maximus is one of the Roman army's most capable and trusted generals and a key advisor to the emperor. As Marcus' devious son Commodus ascends to the throne, Maximus is set to be executed. He escapes, but is captured by slave traders. Renamed Spaniard and forced to become a gladiator, Maximus must battle to the death with other men for the amusement of paying audiences.",
 	},
 	{
 		rank: 38,
@@ -1138,6 +1212,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=XfQYHqsiN5g",
 		id: "tt0120586",
+		description:
+			"Derek Vineyard is paroled after serving 3 years in prison for killing two African-American men. Through his brother, Danny Vineyard's narration, we learn that before going to prison, Derek was a skinhead and the leader of a violent white supremacist gang that committed acts of racial crime throughout L.A. and his actions greatly influenced Danny. Reformed and fresh out of prison, Derek severs contact with the gang and becomes determined to keep Danny from going down the same violent path as he did.",
 	},
 	{
 		rank: 39,
@@ -1168,6 +1244,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=x3t0Nc6fg7w",
 		id: "tt0114814",
+		description:
+			"Held in an L.A. interrogation room, Verbal Kint attempts to convince the feds that a mythic crime lord, Keyser Soze, not only exists, but was also responsible for drawing him and his four partners into a multi-million dollar heist that ended with an explosion in San Pedro harbor – leaving few survivors. Verbal lures his interrogators with an incredible story of the crime lord's almost supernatural prowess.",
 	},
 	{
 		rank: 40,
@@ -1198,6 +1276,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=r-MiSNsCdQ4",
 		id: "tt0407887",
+		description:
+			"To take down South Boston's Irish Mafia, the police send in one of their own to infiltrate the underworld, not realizing the syndicate has done likewise. While an undercover cop curries favor with the mob kingpin, a career criminal rises through the police ranks. But both sides soon discover there's a mole among them.",
 	},
 	{
 		rank: 41,
@@ -1228,6 +1308,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=RLtaA9fFNXU",
 		id: "tt0482571",
+		description:
+			"A mysterious story of two magicians whose intense rivalry leads them on a life-long battle for supremacy -- full of obsession, deceit and jealousy with dangerous and deadly consequences.",
 	},
 	{
 		rank: 42,
@@ -1258,6 +1340,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=MF7JH_54d8c",
 		id: "tt0034583",
+		description:
+			"A mysterious story of two magicians whose intense rivalry leads them on a life-long battle for supremacy -- full of obsession, deceit and jealousy with dangerous and deadly consequences.",
 	},
 	{
 		rank: 43,
@@ -1288,6 +1372,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=7d_jQycdQGo",
 		id: "tt2582802",
+		description:
+			"Under the direction of a ruthless instructor, a talented young drummer begins to pursue perfection at any cost, even his humanity.",
 	},
 	{
 		rank: 44,
@@ -1318,6 +1404,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=34WIbmXkewU",
 		id: "tt1675434",
+		description:
+			"A true story of two men who should never have met – a quadriplegic aristocrat who was injured in a paragliding accident and a young man from the projects.",
 	},
 	{
 		rank: 45,
@@ -1348,6 +1436,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=qSqVVswa420",
 		id: "tt1745960",
+		description:
+			"Set in the world of drone technology and fifth generation fighters, this sequel will explore the end of the era of dogfighting.",
 	},
 	{
 		rank: 46,
@@ -1378,6 +1468,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=GLeDdzGUTq0",
 		id: "tt0027977",
+		description:
+			"A bumbling tramp desires to build a home with a young woman, yet is thwarted time and time again by his lack of experience and habit of being in the wrong place at the wrong time..",
 	},
 	{
 		rank: 47,
@@ -1408,6 +1500,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=gfABwM-Ppng",
 		id: "tt0056058",
+		description:
+			"Down-on-his-luck veteran Tsugumo Hanshirō enters the courtyard of the prosperous House of Iyi. Unemployed, and with no family, he hopes to find a place to commit seppuku—and a worthy second to deliver the coup de grâce in his suicide ritual. The senior counselor for the Iyi clan questions the ronin’s resolve and integrity, suspecting Hanshirō of seeking charity rather than an honorable end. What follows is a pair of interlocking stories which lay bare the difference between honor and respect, and promises to examine the legendary foundations of the Samurai code.",
 	},
 	{
 		rank: 48,
@@ -1438,6 +1532,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=4vPeTSRd580",
 		id: "tt0095327",
+		description:
+			"In the final months of World War II, 14-year-old Seita and his sister Setsuko are orphaned when their mother is killed during an air raid in Kobe, Japan. After a falling out with their aunt, they move into an abandoned bomb shelter. With no surviving relatives and their emergency rations depleted, Seita and Setsuko struggle to survive.",
 	},
 	{
 		rank: 49,
@@ -1468,6 +1564,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=c8CJ6L0I6W8",
 		id: "tt0064116",
+		description:
+			"As the railroad builders advance unstoppably through the Arizona desert on their way to the sea, Jill arrives in the small town of Flagstone with the intention of starting a new life.",
 	},
 	{
 		rank: 50,
@@ -1498,6 +1596,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=m01YktiEZCw",
 		id: "tt0047396",
+		description:
+			"A wheelchair-bound photographer spies on his neighbors from his apartment window and becomes convinced one of them has committed murder.",
 	},
 	{
 		rank: 51,
@@ -1520,6 +1620,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=jQ5lPt9edzQ",
 		id: "tt0078748",
+		description:
+			"During its return to the earth, commercial spaceship Nostromo intercepts a distress signal from a distant planet. When a three-member team of the crew discovers a chamber containing thousands of eggs on the planet, a creature inside one of the eggs attacks an explorer. The entire crew is unaware of the impending nightmare set to descend upon them when the alien parasite planted inside its unfortunate host is birthed.",
 	},
 	{
 		rank: 52,
@@ -1550,6 +1652,7 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=7vl7F8S4cpQ",
 		id: "tt0021749",
+		description: "In this sound-era silent film, a tramp falls in love with a beautiful blind flower seller.",
 	},
 	{
 		rank: 53,
@@ -1580,6 +1683,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=C2-GX0Tltgw",
 		id: "tt0095765",
+		description:
+			"A filmmaker recalls his childhood, when he fell in love with the movies at his village's theater and formed a deep friendship with the theater's projectionist.",
 	},
 	{
 		rank: 54,
@@ -1606,6 +1711,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=4CV41hoyS8A",
 		id: "tt0209144",
+		description:
+			"Leonard Shelby is tracking down the man who raped and murdered his wife. The difficulty of locating his wife's killer, however, is compounded by the fact that he suffers from a rare, untreatable form of short-term memory loss. Although he can recall details of life before his accident, Leonard cannot remember what happened fifteen minutes ago, where he's going, or why.",
 	},
 	{
 		rank: 55,
@@ -1636,6 +1743,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=9l-ViOOFH-s",
 		id: "tt0078788",
+		description:
+			"At the height of the Vietnam war, Captain Benjamin Willard is sent on a dangerous mission that, officially, 'does not exist, nor will it ever exist.' His goal is to locate - and eliminate - a mysterious Green Beret Colonel named Walter Kurtz, who has been leading his personal army on illegal guerrilla missions into enemy territory.",
 	},
 	{
 		rank: 56,
@@ -1666,6 +1775,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=0xQSIdSRlAk",
 		id: "tt0082971",
+		description:
+			"When Dr. Indiana Jones – the tweed-suited professor who just happens to be a celebrated archaeologist – is hired by the government to locate the legendary Ark of the Covenant, he finds himself up against the entire Nazi regime.",
 	},
 	{
 		rank: 57,
@@ -1696,6 +1807,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=0fUCuvNlOCg",
 		id: "tt1853728",
+		description:
+			"With the help of a German bounty hunter, a freed slave sets out to rescue his wife from a brutal Mississippi plantation owner.",
 	},
 	{
 		rank: 58,
@@ -1726,6 +1839,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=CZ1CATNbXg0",
 		id: "tt0910970",
+		description:
+			"In the distant future, Earth has become a desolate wasteland, abandoned by humanity and overrun by mountains of trash. Amidst the rubble, a small, lovable robot named WALL-E spends his days tirelessly cleaning up the mess. But when a sleek, high-tech robot named EVE arrives on a mission to search for signs of life, WALL-E is immediately smitten. Together, they embark on a journey across the cosmos.",
 	},
 	{
 		rank: 59,
@@ -1756,6 +1871,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=YsShZNHmpGE",
 		id: "tt0405094",
+		description:
+			"In 1984 East Berlin, an agent of the secret police, conducting surveillance on a writer and his lover, finds himself becoming increasingly absorbed by their lives.",
 	},
 	{
 		rank: 60,
@@ -1786,6 +1903,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=_dY0SVxnHjQ",
 		id: "tt0043014",
+		description:
+			"A hack screenwriter writes a screenplay for a former silent film star who has faded into Hollywood obscurity.",
 	},
 	{
 		rank: 61,
@@ -1816,6 +1935,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=nmDA60X-f_A",
 		id: "tt0050825",
+		description:
+			"A commanding officer defends three scapegoats on trial for a failed offensive that occurred within the French Army in 1916.",
 	},
 	{
 		rank: 62,
@@ -1846,6 +1967,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=FZQvIJxG9Xs",
 		id: "tt0081505",
+		description:
+			"Jack Torrance accepts a caretaker job at the Overlook Hotel, where he, along with his wife Wendy and their son Danny, must live isolated from the rest of the world for the winter. But they aren't prepared for the madness that lurks within.",
 	},
 	{
 		rank: 63,
@@ -1876,6 +1999,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=i1C6qZVeFtA",
 		id: "tt0032553",
+		description:
+			"Dictator Adenoid Hynkel tries to expand his empire while a poor Jewish barber tries to avoid persecution from Hynkel's regime.",
 	},
 	{
 		rank: 64,
@@ -1906,6 +2031,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=GMlJfiA2u7Y",
 		id: "tt0051201",
+		description:
+			"When Leonard Vole is arrested for the sensational murder of a rich, middle-aged widow, the famous Sir Wilfrid Robarts agrees to appear on his behalf. Sir Wilfrid, recovering from a near-fatal heart attack, is supposed to be on a diet of bland, civil suits—but the lure of the criminal courts is too much for him, especially when the case is so difficult.",
 	},
 	{
 		rank: 65,
@@ -1936,6 +2063,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=6ZfuNTqbHE8",
 		id: "tt4154756",
+		description:
+			"As the Avengers and their allies have continued to protect the world from threats too large for any one hero to handle, a new danger has emerged from the cosmic shadows: Thanos. A despot of intergalactic infamy, his goal is to collect all six Infinity Stones, artifacts of unimaginable power, and use them to inflict his twisted will on all of reality. Everything the Avengers have fought for has led up to this moment - the fate of Earth and existence itself has never been more uncertain.",
 	},
 	{
 		rank: 66,
@@ -1966,6 +2095,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=oSeQQlaCZgU",
 		id: "tt0090605",
+		description:
+			"When Ripley's lifepod is found by a salvage crew over 50 years later, she finds that terra-formers are on the very planet they found the alien species. When the company sends a family of colonists out to investigate her story—all contact is lost with the planet and colonists. They enlist Ripley and the colonial marines to return and search for answers.",
 	},
 	{
 		rank: 67,
@@ -1996,6 +2127,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=Ly7rq5EsTC8",
 		id: "tt0169547",
+		description:
+			"Lester Burnham, a depressed suburban father in a mid-life crisis, decides to turn his hectic life around after developing an infatuation with his daughter's attractive friend.",
 	},
 	{
 		rank: 68,
@@ -2026,6 +2159,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=jPU1AYTxwg4",
 		id: "tt0057012",
+		description:
+			"After the insane General Jack D. Ripper initiates a nuclear strike on the Soviet Union, a war room full of politicians, generals and a Russian diplomat all frantically try to stop the nuclear strike.",
 	},
 	{
 		rank: 69,
@@ -2056,6 +2191,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=g4Hbz2jLxvQ&t=2s",
 		id: "tt4633694",
+		description:
+			"Struggling to find his place in the world while juggling school and family, Brooklyn teenager Miles Morales is unexpectedly bitten by a radioactive spider and develops unfathomable powers just like the one and only Spider-Man. While wrestling with the implications of his new abilities, Miles discovers a super collider created by the madman Wilson 'Kingpin' Fisk, causing others from across the Spider-Verse to be inadvertently transported to his dimension.",
 	},
 	{
 		rank: 70,
@@ -2086,6 +2223,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=g8evyE9TuYk",
 		id: "tt1345836",
+		description:
+			"Following the death of District Attorney Harvey Dent, Batman assumes responsibility for Dent's crimes to protect the late attorney's reputation and is subsequently hunted by the Gotham City Police Department. Eight years later, Batman encounters the mysterious Selina Kyle and the villainous Bane, a new terrorist leader who overwhelms Gotham's finest. The Dark Knight resurfaces to protect a city that has branded him an enemy.",
 	},
 	{
 		rank: 71,
@@ -2116,6 +2255,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=tAaBkFChaRg",
 		id: "tt0364569",
+		description:
+			"With no clue how he came to be imprisoned, drugged and tortured for 15 years, a desperate businessman seeks revenge on his captors.",
 	},
 	{
 		rank: 72,
@@ -2146,6 +2287,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=t433PEQGErc",
 		id: "tt7286456",
+		description:
+			"During the 1980s, a failed stand-up comedian is driven insane and turns to a life of crime and chaos in Gotham City while becoming an infamous psychopathic crime figure.",
 	},
 	{
 		rank: 73,
@@ -2176,6 +2319,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=_R4fbdzzXok",
 		id: "tt0086879",
+		description:
+			"Wolfgang Amadeus Mozart is a remarkably talented young Viennese composer who unwittingly finds a fierce rival in the disciplined and determined Antonio Salieri. Resenting Mozart for both his hedonistic lifestyle and his undeniable talent, the highly religious Salieri is gradually consumed by his jealousy and becomes obsessed with Mozart's downfall, leading to a devious scheme that has dire consequences for both men.",
 	},
 	{
 		rank: 74,
@@ -2206,6 +2351,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=nMft5QDOHek",
 		id: "tt0112573",
+		description:
+			"Enraged at the slaughter of Murron, his new bride and childhood love, Scottish warrior William Wallace slays a platoon of the local English lord's soldiers. This leads the village to revolt and, eventually, the entire country to rise up against English rule.",
 	},
 	{
 		rank: 75,
@@ -2236,6 +2383,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=v-PjgYDrg70",
 		id: "tt0114709",
+		description:
+			"Led by Woody, Andy's toys live happily in his room until Andy's birthday brings Buzz Lightyear onto the scene. Afraid of losing his place in Andy's heart, Woody plots against Buzz. But when circumstances separate Buzz and Woody from their owner, the duo eventually learns to put aside their differences.",
 	},
 	{
 		rank: 76,
@@ -2266,6 +2415,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=7pzKyeIex2Y",
 		id: "tt0082096",
+		description:
+			"A German submarine hunts allied ships during the Second World War, but it soon becomes the hunted. The crew tries to survive below the surface, while stretching both the boat and themselves to their limits.",
 	},
 	{
 		rank: 77,
@@ -2296,6 +2447,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=Rvr68u6k5sI",
 		id: "tt2380307",
+		description:
+			"Despite his family’s baffling generations-old ban on music, Miguel dreams of becoming an accomplished musician like his idol, Ernesto de la Cruz. Desperate to prove his talent, Miguel finds himself in the stunning and colorful Land of the Dead following a mysterious chain of events. Along the way, he meets charming trickster Hector, and together, they set off on an extraordinary journey to unlock the real story behind Miguel's family history.",
 	},
 	{
 		rank: 78,
@@ -2326,6 +2479,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=KnrRy6kSFF0",
 		id: "tt0361748",
+		description:
+			"In Nazi-occupied France during World War II, a group of Jewish-American soldiers known as 'The Basterds' are chosen specifically to spread fear throughout the Third Reich by scalping and brutally killing Nazis. The Basterds, lead by Lt. Aldo Raine soon cross paths with a French-Jewish teenage girl who runs a movie theater in Paris which is targeted by the soldiers.",
 	},
 	{
 		rank: 79,
@@ -2356,6 +2511,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=4OiMOHRDs14",
 		id: "tt0119698",
+		description:
+			"Ashitaka, a prince of the disappearing Emishi people, is cursed by a demonized boar god and must journey to the west to find a cure. Along the way, he encounters San, a young human woman fighting to protect the forest, and Lady Eboshi, who is trying to destroy it. Ashitaka must find a way to bring balance to this conflict.",
 	},
 	{
 		rank: 80,
@@ -2386,6 +2543,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=TcMBFSGVi1c",
 		id: "tt4154796",
+		description:
+			"After the devastating events of Avengers: Infinity War, the universe is in ruins due to the efforts of the Mad Titan, Thanos. With the help of remaining allies, the Avengers must assemble once more in order to undo Thanos' actions and restore order to the universe once and for all, no matter what consequences may be in store.",
 	},
 	{
 		rank: 81,
@@ -2416,6 +2575,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=LcpCRyNo8T8",
 		id: "tt0087843",
+		description:
+			"A former Prohibition-era Jewish gangster returns to the Lower East Side of Manhattan over thirty years later, where he once again must confront the ghosts and regrets of his old life.",
 	},
 	{
 		rank: 82,
@@ -2446,6 +2607,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=ReIJ1lbL-Q8",
 		id: "tt0119217",
+		description:
+			"When professors discover that an aimless janitor is also a math genius, a therapist helps the young man confront the demons that are holding him back.",
 	},
 	{
 		rank: 83,
@@ -2476,6 +2639,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=JcpWXaA2qeg",
 		id: "tt0435761",
+		description:
+			"Woody, Buzz, and the rest of Andy's toys haven't been played with in years. With Andy about to go to college, the gang find themselves accidentally left at a nefarious day care center. The toys must band together to escape and return home to Andy.",
 	},
 	{
 		rank: 84,
@@ -2506,6 +2671,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=QBwzN4v1vA0",
 		id: "tt0180093",
+		description:
+			"The hopes and dreams of four ambitious people are shattered when their drug addictions begin spiraling out of control. A look into addiction and how it overcomes the mind and body.",
 	},
 	{
 		rank: 85,
@@ -2536,6 +2703,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=NooIc3dMncc",
 		id: "tt5311514",
+		description:
+			"High schoolers Mitsuha and Taki are complete strangers living separate lives. But one night, they suddenly switch places. Mitsuha wakes up in Taki’s body, and he in hers. This bizarre occurrence continues to happen randomly, and the two must adjust their lives around each other.",
 	},
 	{
 		rank: 86,
@@ -2566,6 +2735,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=lSE8sl2-PZg",
 		id: "tt0045152",
+		description:
+			"In 1927 Hollywood, a silent film production company and cast make a difficult transition to sound.",
 	},
 	{
 		rank: 87,
@@ -2596,6 +2767,7 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=K0eDlFX9GMc",
 		id: "tt1187043",
+		description: `Rascal. Joker. Dreamer. Genius... You've never met a college student quite like "Rancho." From the moment he arrives at India's most prestigious university, Rancho's outlandish schemes turn the campus upside down—along with the lives of his two newfound best friends. Together, they make life miserable for "Virus," the school’s uptight and heartless dean. But when Rancho catches the eye of the dean's daughter, Virus sets his sights on flunking out the "3 idiots" once and for all.`,
 	},
 	{
 		rank: 88,
@@ -2626,6 +2798,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=7L8p7_SLzvU",
 		id: "tt0086190",
+		description:
+			"Luke Skywalker leads a mission to rescue his friend Han Solo from the clutches of Jabba the Hutt, while the Emperor seeks to destroy the Rebellion once and for all with a second dreaded Death Star.",
 	},
 	{
 		rank: 89,
@@ -2656,6 +2830,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=oR_e9y-bka0",
 		id: "tt0062622",
+		description:
+			"Humanity finds a mysterious object buried beneath the lunar surface and sets off to find its origins with the help of HAL 9000, the world's most advanced super computer.",
 	},
 	{
 		rank: 90,
@@ -2686,6 +2862,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=07-QBnEkgXU",
 		id: "tt0338013",
+		description:
+			"Joel Barish, heartbroken that his girlfriend underwent a procedure to erase him from her memory, decides to do the same. However, as he watches his memories of her fade away, he realises that he still loves her, and may be too late to correct his mistake.",
 	},
 	{
 		rank: 91,
@@ -2716,6 +2894,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=vayksn4Y93A",
 		id: "tt0105236",
+		description:
+			"A botched robbery indicates a police informant, and the pressure mounts in the aftermath at a warehouse. Crime begets violence as the survivors -- veteran Mr. White, newcomer Mr. Orange, psychopathic parolee Mr. Blonde, bickering weasel Mr. Pink and Nice Guy Eddie -- unravel.",
 	},
 	{
 		rank: 92,
@@ -2746,6 +2926,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=LV3z2Ytxu90",
 		id: "tt0057565",
+		description:
+			"A shoe company executive who has mortgaged everything he has becomes a victim of extortion when his chauffeur's son is kidnapped and is conflicted over whether he should pay the ransom.",
 	},
 	{
 		rank: 93,
@@ -2776,6 +2958,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=JBecbs52Fpo",
 		id: "tt8267604",
+		description:
+			"Zain, a 12-year-old boy scrambling to survive on the streets of Beirut, sues his parents for having brought him into such an unjust world, where being a refugee with no documents means that your rights can easily be denied.",
 	},
 	{
 		rank: 94,
@@ -2806,6 +2990,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=8dxh3lwdOFw",
 		id: "tt0033467",
+		description:
+			"Newspaper magnate, Charles Foster Kane is taken from his mother as a boy and made the ward of a rich industrialist. As a result, every well-meaning, tyrannical or self-destructive move he makes for the rest of his life appears in some way to be a reaction to that deeply wounding event.",
 	},
 	{
 		rank: 95,
@@ -2836,6 +3022,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=vOlRhGEhG7k",
 		id: "tt0056172",
+		description:
+			"Newspaper magnate, Charles Foster Kane is taken from his mother as a boy and made the ward of a rich industrialist. As a result, every well-meaning, tyrannical or self-destructive move he makes for the rest of his life appears in some way to be a reaction to that deeply wounding event.",
 	},
 	{
 		rank: 96,
@@ -2866,6 +3054,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=ieLIOBkMgAQ",
 		id: "tt2106476",
+		description:
+			"A teacher lives a lonely life, all the while struggling over his son’s custody. His life slowly gets better as he finds love and receives good news from his son, but his new luck is about to be brutally shattered by an innocent little lie.",
 	},
 	{
 		rank: 97,
@@ -2896,6 +3086,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=nsVproWjN6c",
 		id: "tt0022100",
+		description:
+			"In this classic German thriller, Hans Beckert, a serial killer who preys on children, becomes the focus of a massive Berlin police manhunt. Beckert's heinous crimes are so repellant and disruptive to city life that he is even targeted by others in the seedy underworld network. With both cops and criminals in pursuit, the murderer soon realizes that people are on his trail, sending him into a tense, panicked attempt to escape justice.",
 	},
 	{
 		rank: 98,
@@ -2926,6 +3118,7 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=ek7T9Gyl_J4",
 		id: "tt0053125",
+		description: "Advertising man Roger Thornhill is mistaken for a spy, triggering a deadly cross-country chase.",
 	},
 	{
 		rank: 99,
@@ -2956,6 +3149,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=Z5jvQwwHQNY",
 		id: "tt0052357",
+		description:
+			"A retired San Francisco detective suffering from acrophobia investigates the strange activities of an old friend's wife, all the while becoming dangerously obsessed with her.",
 	},
 	{
 		rank: 100,
@@ -2986,6 +3181,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=Py7cDXQae2U",
 		id: "tt0211915",
+		description:
+			"At a tiny Parisian café, the adorable yet painfully shy Amélie accidentally discovers a gift for helping others. Soon Amelie is spending her days as a matchmaker, guardian angel, and all-around do-gooder. But when she bumps into a handsome stranger, will she find the courage to become the star of her very own love story?",
 	},
 	{
 		rank: 101,
@@ -3016,6 +3213,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=UHaSQU-4wss",
 		id: "tt0091251",
+		description:
+			"The invasion of a village in Byelorussia by German forces sends young Florya into the forest to join the weary Resistance fighters, against his family's wishes. There he meets a girl, Glasha, who accompanies him back to his village. On returning home, Florya finds his family and fellow peasants massacred. His continued survival amidst the brutal debris of war becomes increasingly nightmarish, a battle between despair and hope.",
 	},
 	{
 		rank: 102,
@@ -3046,6 +3245,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=T54uZPI4Z8A",
 		id: "tt0066921",
+		description:
+			"In a near-future Britain, young Alexander DeLarge and his pals get their kicks beating and raping anyone they please. When not destroying the lives of others, Alex swoons to the music of Beethoven. The state, eager to crack down on juvenile crime, gives an incarcerated Alex the option to undergo an invasive procedure that'll rob him of all personal agency. In a time when conscience is a commodity, can Alex change his tune?",
 	},
 	{
 		rank: 103,
@@ -3076,6 +3277,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=n2i917l5RFc",
 		id: "tt0093058",
+		description:
+			"A pragmatic U.S. Marine observes the dehumanizing effects the U.S.-Vietnam War has on his fellow recruits from their brutal boot camp training to the bloody street fighting in Hue.",
 	},
 	{
 		rank: 104,
@@ -3106,6 +3309,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=yKrrAa2o9Eg",
 		id: "tt0036775",
+		description:
+			"A rich woman and a calculating insurance agent plot to kill her unsuspecting husband after he signs a double indemnity policy. Against a backdrop of distinctly Californian settings, the partners in crime plan the perfect murder to collect the insurance, which pays double if the death is accidental.",
 	},
 	{
 		rank: 105,
@@ -3136,6 +3341,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=OcslkrBMLGc",
 		id: "tt0053604",
+		description:
+			"Bud Baxter is a minor clerk in a huge New York insurance company, until he discovers a quick way to climb the corporate ladder. He lends out his apartment to the executives as a place to take their mistresses. Although he often has to deal with the aftermath of their visits, one night he's left with a major problem to solve.",
 	},
 	{
 		rank: 106,
@@ -3166,6 +3373,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=cv276Wg3e7I",
 		id: "tt0086250",
+		description:
+			"After getting a green card in exchange for assassinating a Cuban government official, Tony Montana stakes a claim on the drug trade in Miami. Viciously murdering anyone who stands in his way, Tony eventually becomes the biggest drug lord in the state, controlling nearly all the cocaine that comes through Miami. But increased pressure from the police, wars with Colombian drug cartels and his own drug-fueled paranoia serve to fuel the flames of his eventual downfall.",
 	},
 	{
 		rank: 107,
@@ -3196,6 +3405,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=2VeLN3IDjzQ",
 		id: "tt0044741",
+		description:
+			"Kanji Watanabe is a middle-aged man who has worked in the same monotonous bureaucratic position for decades. Learning he has cancer, he starts to look for the meaning of his life.",
 	},
 	{
 		rank: 108,
@@ -3226,6 +3437,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=_nAIb_J9T5M",
 		id: "tt0070735",
+		description:
+			"A novice con man teams up with an acknowledged master to avenge the murder of a mutual friend by pulling off the ultimate big con and swindling a fortune from a big-time mobster.",
 	},
 	{
 		rank: 109,
@@ -3256,6 +3469,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=KR7loA_oziY",
 		id: "tt0056592",
+		description:
+			"Scout Finch, 6, and her older brother Jem live in sleepy Maycomb, Alabama, spending much of their time with their friend Dill and spying on their reclusive and mysterious neighbor, Boo Radley. When Atticus, their widowed father and a respected lawyer, defends a black man named Tom Robinson against fabricated rape charges, the trial and tangent events expose the children to evils of racism and stereotyping.",
 	},
 	{
 		rank: 110,
@@ -3286,6 +3501,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=T5IligQP7Fo",
 		id: "tt0075314",
+		description:
+			"A mentally unstable Vietnam War veteran works as a night-time taxi driver in New York City where the perceived decadence and sleaze feed his urge for violent action.",
 	},
 	{
 		rank: 111,
@@ -3316,6 +3533,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=HWEW_qTLSEE",
 		id: "tt1049413",
+		description:
+			"Carl Fredricksen spent his entire life dreaming of exploring the globe and experiencing life to its fullest. But at age 78, life seems to have passed him by, until a twist of fate (and a persistent 8-year old Wilderness Explorer named Russell) gives him a new lease on life.",
 	},
 	{
 		rank: 112,
@@ -3346,6 +3565,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=6sOXrY5yV4g",
 		id: "tt0119488",
+		description:
+			"Three detectives in the corrupt and brutal L.A. police force of the 1950s use differing methods to uncover a conspiracy behind the shotgun slayings of the patrons at an all-night diner.",
 	},
 	{
 		rank: 114,
@@ -3376,6 +3597,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=gdtZv3XROnc",
 		id: "tt0017136",
+		description:
+			"In a futuristic city sharply divided between the rich and the poor, the son of the city's mastermind meets a prophet who predicts the coming of a savior to mediate their differences.",
 	},
 	{
 		rank: 120,
@@ -3406,6 +3629,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=DKg36LBVgfg",
 		id: "tt0097576",
+		description:
+			"In 1938, an art collector appeals to eminent archaeologist Dr. Indiana Jones to embark on a search for the Holy Grail. Indy learns that a medieval historian has vanished while searching for it, and the missing man is his own father, Dr. Henry Jones Sr.. He sets out to rescue his father by following clues in the old man's notebook, which his father had mailed to him before he went missing. Indy arrives in Venice, where he enlists the help of a beautiful academic, Dr. Elsa Schneider, along with Marcus Brody and Sallah. Together they must stop the Nazis from recovering the power of eternal life and taking over the world!",
 	},
 	{
 		rank: 130,
@@ -3436,6 +3661,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=97TYs2YXbJw",
 		id: "tt0053291",
+		description:
+			"Two musicians witness a mob hit and struggle to find a way out of the city before they are found by the gangsters. Their only opportunity is to join an all-girl band as they leave on a tour. To make their getaway they must first disguise themselves as women, then keep their identities secret and deal with the problems this brings - such as an attractive bandmate and a very determined suitor.",
 	},
 	{
 		rank: 131,
@@ -3466,6 +3693,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=uRjKPLH2OaQ",
 		id: "tt0042192",
+		description:
+			"From the moment she glimpses her idol at the stage door, Eve Harrington is determined to take the reins of power away from the great actress Margo Channing. Eve maneuvers her way into Margo's Broadway role, becomes a sensation and even causes turmoil in the lives of Margo's director boyfriend, her playwright and his wife. Only the cynical drama critic sees through Eve, admiring her audacity and perfect pattern of deceit.",
 	},
 	{
 		rank: 144,
@@ -3496,6 +3725,7 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=urRkGvhXc8w",
 		id: "tt0071853",
+		description: `King Arthur, accompanied by his squire, recruits his Knights of the Round Table, including Sir Bedevere the Wise, Sir Lancelot the Brave, Sir Robin the Not-Quite-So-Brave-As-Sir-Lancelot and Sir Galahad the Pure. On the way, Arthur battles the Black Knight who, despite having had all his limbs chopped off, insists he can still fight. They reach Camelot, but Arthur decides not to enter, as "it is a silly place".`,
 	},
 	{
 		rank: 146,
@@ -3526,6 +3756,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=XZ8Q9mOYJgE",
 		id: "tt0040897",
+		description:
+			"Fred C. Dobbs and Bob Curtin, both down on their luck in Tampico, Mexico in 1925, meet up with a grizzled prospector named Howard and decide to join with him in search of gold in the wilds of central Mexico. Through enormous difficulties, they eventually succeed in finding gold, but bandits, the elements, and most especially greed threaten to turn their success into disaster.",
 	},
 	{
 		rank: 156,
@@ -3556,6 +3788,8 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=T37QkBc4IGY",
 		id: "tt0071315",
+		description:
+			"Private eye Jake Gittes lives off of the murky moral climate of sunbaked, pre-World War II Southern California. Hired by a beautiful socialite to investigate her husband's extra-marital affair, Gittes is swept into a maelstrom of double dealings and deadly deceits, uncovering a web of personal and political scandals that come crashing together.",
 	},
 	{
 		rank: 179,
@@ -3586,6 +3820,7 @@ const topRatedMovies = [
 		],
 		trailer: "https://www.youtube.com/watch?v=r9yyDEDGlr0",
 		id: "tt0041959",
+		description: `In postwar Vienna, Austria, Holly Martins, a writer of pulp Westerns, arrives penniless as a guest of his childhood chum Harry Lime, only to learn he has died. Martins develops a conspiracy theory after learning of a "third man" present at the time of Harry's death, running into interference from British officer Major Calloway, and falling head-over-heels for Harry's grief-stricken lover, Anna.`,
 	},
 ];
 

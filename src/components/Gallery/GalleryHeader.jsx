@@ -1,8 +1,8 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import "./GalleryHeader.css";
 
 function GalleryHeader({ title, icon, onNavigate }) {
-  
 	const handleNavigation = (category) => {
 		const section = title.toLowerCase().replace(" ", "");
 		onNavigate(section, category);
@@ -17,7 +17,7 @@ function GalleryHeader({ title, icon, onNavigate }) {
 					Movies
 				</button>
 				<button className="btn tvshows" onClick={() => handleNavigation("tvshows")}>
-					Tv Shows
+					TV Shows
 				</button>
 			</div>
 		</div>
