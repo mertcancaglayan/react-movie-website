@@ -1,12 +1,11 @@
-import React, { Fragment } from "react";
+import React from "react";
+import { Link } from "react-router-dom";
 
 function NavListItem({ data }) {
 	return (
-		<Fragment>
-			<li>
-				<a href={data.link}>{data.name}</a>
-			</li>
-		</Fragment>
+		<li>
+			<Link to={`/${data.link.toLowerCase()}`}>{data.name}</Link>
+		</li>
 	);
 }
 

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { faThumbsUp } from "@fortawesome/free-solid-svg-icons";
-import recommendedMovies from "../../data/recommendedMovies";
-import recommendedTVShows from "../../data/recommendedTVShows";
+import recommendedMovies from "../../../../data/recommendedMovies";
+import recommendedTVShows from "../../../../data/recommendedTVShows";
 import GalleryCard from "./GalleryCard";
 import GalleryHeader from "./GalleryHeader";
 
@@ -13,10 +13,10 @@ const RecommendedGallery = () => {
     };
 
     return (
-        <div className="gallery">
+        <section className="gallery">
             <GalleryHeader title="Recommended" icon={faThumbsUp} onNavigate={handleNavigation} />
             <GalleryCard category={recommendedCategory} />
-        </div>
+        </section>
     );
 };
 
