@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
-import {popularMovies} from "../../data/fetchMovieData";
-import imdblogo from "../../images/logos/imdblogo.png";
-import metalogo from "../../images/logos/metalogo.png";
+import { popularMovies } from "../../../../data/fetchMovieData";
+import imdblogo from "../../../../images/logos/imdblogo.png";
+import metalogo from "../../../../images/logos/metalogo.png";
 import "./banner.css";
 
 function BannerItemList() {
@@ -15,7 +15,11 @@ function BannerItemList() {
 
 						<div className="cardGenres">
 							{movie.genres.map((genre, index) => {
-								return <p className={`genre ${genre}`} key={index}>{genre}</p>;
+								return (
+									<p className={`genre ${genre}`} key={index}>
+										{genre}
+									</p>
+								);
 							})}
 						</div>
 						<div className="ratings">

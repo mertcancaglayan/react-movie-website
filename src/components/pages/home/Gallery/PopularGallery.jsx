@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
-import { popularMovies, popularTvShows } from "../../data/fetchMovieData";
+import { popularMovies, popularTvShows } from "../../../../data/fetchMovieData";
 import GalleryCard from "./GalleryCard";
 import GalleryHeader from "./GalleryHeader";
 
@@ -12,10 +12,10 @@ const PopularGallery = () => {
 	};
 
 	return (
-		<div className="gallery">
+		<section className="gallery">
 			<GalleryHeader title="Popular" icon={faStar} onNavigate={handleNavigation} />
 			<GalleryCard category={popularCategory} />
-		</div>
+		</section>
 	);
 };
 

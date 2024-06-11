@@ -1,0 +1,26 @@
+const genresData = [
+	{ _id: "1", link: "short", name: "Short" },
+	{ _id: "2", link: "western", name: "Western" },
+	{ _id: "3", link: "sport", name: "Sport" },
+	{ _id: "4", link: "new", name: "New & Popular" },
+	{ _id: "5", link: "war", name: "War" },
+	{ _id: "6", link: "action", name: "Action" },
+	{ _id: "7", link: "comedy", name: "Comedy" },
+	{ _id: "8", link: "drama", name: "Drama" },
+	{ _id: "9", link: "horror", name: "Horror" },
+	{ _id: "10", link: "romance", name: "Romance" },
+	{ _id: "11", link: "sci-fi", name: "Sci-Fi" },
+	{ _id: "12", link: "documentary", name: "Documentary" },
+	{ _id: "13", link: "thriller", name: "Thriller" },
+	{ _id: "14", link: "fantasy", name: "Fantasy" },
+	{ _id: "15", link: "mystery", name: "Mystery" },
+	{ _id: "16", link: "animation", name: "Animation" },
+	{ _id: "17", link: "adventure", name: "Adventure" },
+	{ _id: "18", link: "crime", name: "Crime" },
+	{ _id: "19", link: "family", name: "Family" },
+	{ _id: "20", link: "musical", name: "Musical" },
+	{ _id: "21", link: "biography", name: "Biography" },
+	{ _id: "22", link: "history", name: "History" },
+];
+
+export default genresData;
