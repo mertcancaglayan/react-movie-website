@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, {useRef, useState } from "react";
 import BannerItemList from "./BannerItemList";
 import NavigationButtons from "./NavigationButtons";
 import BannerTitle from "./BannerTitle";

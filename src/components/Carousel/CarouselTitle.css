@@ -1,0 +1,17 @@
+* {
+	color: aliceblue;
+}
+
+.titleContainer {
+	display: flex;
+	margin: 0 0 15px;
+	gap: 10px;
+	margin-left: 10%;
+	align-items: center;
+}
+
+.titleContainer > * {
+	font-family: "Playfair Display", serif;
+	text-shadow: -2px 2px 2px rgba(0, 0, 0, 0.6);
+	font-size: 30px;
+}

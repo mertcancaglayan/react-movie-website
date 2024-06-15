@@ -1,0 +1,210 @@
+.genresContainer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 80%;
+	height: max-content;
+	margin: 25px 0 15px;
+}
+
+.genresContainer ul {
+	display: flex;
+    flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	width: 95%;
+    height: 100%;
+	gap: 8px 5px;
+}
+.genresContainer ul .genreBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	list-style-type: none;
+	list-style: none;
+	border: 1px solid red;
+	cursor: pointer;
+	transition: 0.3s ease-in-out;
+    padding: 5px;
+    height: 35px;
+}
+
+.genresContainer ul .short {
+	border: 0.15rem solid rgb(114, 91, 91); /* Dark Brown */
+}
+
+.genresContainer ul .western {
+	border: 0.15rem solid rgb(165, 42, 42); /* Brown */
+}
+
+.genresContainer ul .sport {
+	border: 0.15rem solid rgb(34, 139, 34); /* Forest Green */
+}
+
+.genresContainer ul .new-popular {
+	border: 0.15rem solid rgb(255, 69, 0); /* Orange Red */
+}
+
+.genresContainer ul .war {
+	border: 0.15rem solid rgb(128, 0, 0); /* Maroon */
+}
+
+.genresContainer ul .action {
+	border: 0.15rem solid rgb(255, 0, 0); /* Red */
+}
+
+.genresContainer ul .comedy {
+	border: 0.15rem solid rgb(255, 215, 0); /* Gold */
+}
+
+.genresContainer ul .drama {
+	border: 0.15rem solid rgb(75, 0, 130); /* Indigo */
+}
+
+.genresContainer ul .horror {
+	border: 0.15rem solid rgb(0, 0, 0); /* Black */
+}
+
+.genresContainer ul .romance {
+	border: 0.15rem solid rgb(255, 105, 180); /* Hot Pink */
+}
+
+.genresContainer ul .sci-fi {
+	border: 0.15rem solid rgb(0, 191, 255); /* Deep Sky Blue */
+}
+
+.genresContainer ul .documentary {
+	border: 0.15rem solid rgb(85, 107, 47); /* Dark Olive Green */
+}
+
+.genresContainer ul .thriller {
+	border: 0.15rem solid rgb(128, 128, 0); /* Olive */
+}
+
+.genresContainer ul .fantasy {
+	border: 0.15rem solid rgb(138, 43, 226); /* Blue Violet */
+}
+
+.genresContainer ul .mystery {
+	border: 0.15rem solid rgb(47, 79, 79); /* Dark Slate Gray */
+}
+
+.genresContainer ul .animation {
+	border: 0.15rem solid rgb(255, 20, 147); /* Deep Pink */
+}
+
+.genresContainer ul .adventure {
+	border: 0.15rem solid rgb(0, 128, 128); /* Teal */
+}
+
+.genresContainer ul .crime {
+	border: 0.15rem solid rgb(139, 69, 19); /* Saddle Brown */
+}
+
+.genresContainer ul .family {
+	border: 0.15rem solid rgb(240, 230, 140); /* Khaki */
+}
+
+.genresContainer ul .musical {
+	border: 0.15rem solid rgb(218, 112, 214); /* Orchid */
+}
+
+.genresContainer ul .biography {
+	border: 0.15rem solid rgb(210, 105, 30); /* Chocolate */
+}
+
+.genresContainer ul .history {
+	border: 0.15rem solid rgb(160, 82, 45); /* Sienna */
+}
+
+.genresContainer ul .genreBtn:hover {
+	background-color: red;
+}
+
+.genresContainer ul .short:hover {
+	background-color: rgb(114, 91, 91); /* Dark Brown */
+}
+
+.genresContainer ul .western:hover {
+	background-color: rgb(165, 42, 42); /* Brown */
+}
+
+.genresContainer ul .sport:hover {
+	background-color: rgb(34, 139, 34); /* Forest Green */
+}
+
+.genresContainer ul .new-popular:hover {
+	background-color: rgb(255, 69, 0); /* Orange Red */
+}
+
+.genresContainer ul .war:hover {
+	background-color: rgb(128, 0, 0); /* Maroon */
+}
+
+.genresContainer ul .action:hover {
+	background-color: rgb(255, 0, 0); /* Red */
+}
+
+.genresContainer ul .comedy:hover {
+	background-color: rgb(255, 215, 0); /* Gold */
+}
+
+.genresContainer ul .drama:hover {
+	background-color: rgb(75, 0, 130); /* Indigo */
+}
+
+.genresContainer ul .horror:hover {
+	background-color: rgb(0, 0, 0); /* Black */
+}
+
+.genresContainer ul .romance:hover {
+	background-color: rgb(255, 105, 180); /* Hot Pink */
+}
+
+.genresContainer ul .sci-fi:hover {
+	background-color: rgb(0, 191, 255); /* Deep Sky Blue */
+}
+
+.genresContainer ul .documentary:hover {
+	background-color: rgb(85, 107, 47); /* Dark Olive Green */
+}
+
+.genresContainer ul .thriller:hover {
+	background-color: rgb(128, 128, 0); /* Olive */
+}
+
+.genresContainer ul .fantasy:hover {
+	background-color: rgb(138, 43, 226); /* Blue Violet */
+}
+
+.genresContainer ul .mystery:hover {
+	background-color: rgb(47, 79, 79); /* Dark Slate Gray */
+}
+
+.genresContainer ul .animation:hover {
+	background-color: rgb(255, 20, 147); /* Deep Pink */
+}
+
+.genresContainer ul .adventure:hover {
+	background-color: rgb(0, 128, 128); /* Teal */
+}
+
+.genresContainer ul .crime:hover {
+	background-color: rgb(139, 69, 19); /* Saddle Brown */
+}
+
+.genresContainer ul .family:hover {
+	background-color: rgb(240, 230, 140); /* Khaki */
+}
+
+.genresContainer ul .musical:hover {
+	background-color: rgb(218, 112, 214); /* Orchid */
+}
+
+.genresContainer ul .biography:hover {
+	background-color: rgb(210, 105, 30); /* Chocolate */
+}
+
+.genresContainer ul .history:hover {
+	background-color: rgb(160, 82, 45); /* Sienna */
+}
