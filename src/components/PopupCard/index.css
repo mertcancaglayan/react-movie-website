@@ -1,0 +1,219 @@
+:root {
+	--button-color: grey;
+	--panel-color: #18212e;
+}
+
+.popupContainer {
+	position: relative;
+	width: 80%;
+	max-width: 980px;
+	min-width: 350px;
+	background-color: var(--panel-color);
+	box-sizing: border-box;
+	border-radius: 10px;
+	padding: 20px;
+}
+
+@media screen and (max-width: 1050px) {
+	.popupContainer {
+		width: 95%;
+	}
+}
+
+.movie {
+	display: flex;
+	flex-wrap: wrap;
+	background-color: var(--panel-color);
+	margin-top: 15px;
+	padding: 15px;
+	border-radius: 5px;
+}
+
+.moviePoster {
+	flex: 0 0 250px;
+	margin-right: 15px;
+}
+
+.moviePoster img {
+	width: 100%;
+	height: auto;
+	border-radius: 5px;
+}
+
+.movieDetails {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.movieTitle {
+	margin: 0;
+	color: lightgrey;
+	font-size: clamp(1.5rem, 3vw, 2rem);
+}
+
+.movieActors,
+.movieGenres {
+	display: flex;
+	flex-wrap: wrap;
+	list-style-type: none;
+	padding: 0;
+}
+
+.movieActors h5,
+.movieGenres h5 {
+	font-weight: bold;
+	margin-right: 5px;
+	font-size: clamp(0.8rem, 1.5vw, 1rem);
+}
+
+.movieActors li,
+.movieGenres li,
+.movieRating,
+.movieYear {
+	margin-right: 5px;
+	color: rgb(219, 214, 214);
+	font-size: clamp(0.8rem, 1.5vw, 1rem);
+}
+
+.movieActors li::after,
+.movieGenres li::after {
+	content: ",";
+}
+
+.movieDescription {
+	display: flex;
+	gap: 5px;
+	color: rgb(182, 179, 179);
+	font-size: clamp(1rem, 2vw, 1.2rem);
+}
+
+.trailerBtn {
+	background-color: transparent;
+	color: aliceblue;
+	outline: none;
+	border: 1px solid red;
+	font-size: clamp(1rem, 2vw, 1.2rem);
+	transition: background-color 0.3s ease;
+	padding: 8px 15px;
+	cursor: pointer;
+}
+
+.trailerBtn:hover {
+	background-color: rgb(247, 5, 5);
+}
+
+.uti {
+	display: flex;
+	justify-content: flex-end;
+	gap: 20px;
+}
+
+.uti .heartIcon {
+	font-size: clamp(2rem, 3vw, 3rem);
+	cursor: pointer;
+}
+
+.heartIcon > * {
+	transition: 0.3s ease-in-out;
+}
+
+.heartIcon:hover > * {
+	color: rgb(180, 71, 71);
+}
+
+.heartIcon.liked > * {
+	color: red;
+}
+
+.closeBtn {
+	font-size: clamp(2rem, 3vw, 3rem);
+	position: absolute;
+	top: 2%;
+	right: 2%;
+	transition: transform 0.3s ease-in;
+	cursor: pointer;
+	z-index: 2;
+	background-color: transparent;
+	border: none;
+	color: aliceblue;
+}
+
+.closeBtn:hover {
+	animation: btnAnimation 0.3s ease-in;
+	transform: scale(1.1);
+}
+
+@keyframes btnAnimation {
+	0% {
+		transform: scale(1);
+	}
+	10% {
+		transform: scale(1.05);
+	}
+	20% {
+		transform: scale(1.1);
+	}
+	30% {
+		transform: scale(1.15);
+	}
+	40% {
+		transform: scale(1.2);
+	}
+	50% {
+		transform: scale(1.25);
+	}
+	60% {
+		transform: scale(1.3);
+	}
+	70% {
+		transform: scale(1.25);
+	}
+	80% {
+		transform: scale(1.2);
+	}
+	90% {
+		transform: scale(1.15);
+	}
+	100% {
+		transform: scale(1.3);
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.trailerBtn {
+		font-size: clamp(0.6rem, 1.3vw, 1rem);
+	}
+
+	.movieDetails {
+		gap: 5px;
+	}
+
+	.moviePoster {
+		flex: 0 0 175px;
+		margin-bottom: 15px;
+	}
+
+	.movieDescription {
+		font-size: clamp(0.9rem, 1.7vw, 1.1rem);
+	}
+
+	.movieActors li,
+	.movieGenres li,
+	.movieRating,
+	.movieYear {
+		margin-right: 5px;
+		color: rgb(219, 214, 214);
+		font-size: clamp(0.7rem, 1.3vw, 0.8rem);
+	}
+
+	.movieActors h5,
+	.movieGenres h5 {
+		font-size: clamp(0.7rem, 1.3vw, 0.8rem);
+	}
+
+	.uti .heartIcon {
+		font-size: clamp(1.5rem, 2vw, 2.2rem);
+	}
+}

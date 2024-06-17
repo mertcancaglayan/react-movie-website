@@ -3839,6 +3839,7 @@ function filterTopMovies(movies) {
 			releaseYear: element.movie_year || "N/A",
 			actors: element.actors_list.slice(0, 3) || [],
 			genres: element.genre.map((genre) => genre) || [],
+			trailer: element.trailer,
 		};
 	});
 }

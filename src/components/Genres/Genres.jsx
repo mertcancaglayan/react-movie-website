@@ -2,17 +2,20 @@ import React from "react";
 import genresData from "../../data/genresListData";
 import "./Genres.css";
 
-function Genres() {
+function Genres({ onGenreSelect }) {
 	return (
 		<aside className="genresContainer">
 			<ul>
-				{genresData.map((data, index) => {
-					return (
-						<li className={`genreBtn ${data.name.toLocaleLowerCase()}`} key={index}>
+				{genresData.map((data, index) => (
+					<li key={data._id}>
+						<button
+							className={`genreBtn ${data.link}`}
+							onClick={() => onGenreSelect(data.link)}
+						>
 							{data.name}
-						</li>
-					);
-				})}
+						</button>
+					</li>
+				))}
 			</ul>
 		</aside>
 	);

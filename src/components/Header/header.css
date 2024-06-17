@@ -52,14 +52,18 @@ header {
 	color: aqua;
 }
 
-.search .search-icon {
+.search {
+	height: 50%;
+}
+
+.search .searchIcon {
 	color: aliceblue;
 	width: 20%;
 	transition: 0.4s ease-in-out;
 	cursor: pointer;
 }
 
-.search .search-icon:hover {
+.search .searchIcon:hover {
 	color: gray;
 }
 
@@ -75,5 +79,18 @@ header {
 	transition: 0.5s ease-in-out;
 }
 .search input:focus {
+	border: 1px solid white;
+}
+
+.searchBtn {
+	background: transparent;
+	border: 1px solid rgb(255, 255, 255, 0.2);
+	width: 20%;
+	padding: 10px 0;
+	transition: 0.3s ease-in-out;
+	cursor: pointer;
+}
+
+.searchBtn:hover {
 	border: 1px solid white;
 }

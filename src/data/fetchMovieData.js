@@ -36,6 +36,7 @@ const fetchCineData = async () => {
 			const releaseYear = element.node.releaseYear?.year || "N/A";
 			const actors = element.node.principalCredits[0]?.credits.map((credit) => credit.name?.nameText?.text) || [];
 			const genres = element.node.titleGenres?.genres.map((genre) => genre.genre?.text) || [];
+			const trailer = "https://www.youtube.com/results?search_query=" + element.node.id;
 
 			return {
 				id: id,
@@ -47,6 +48,7 @@ const fetchCineData = async () => {
 				rating: rating,
 				actors: actors.slice(0, 2),
 				genres: genres,
+				trailer: trailer,
 			};
 		});
 
@@ -60,6 +62,7 @@ const fetchCineData = async () => {
 			const releaseYear = element.node.releaseYear?.year || "N/A";
 			const actors = element.node.principalCredits[0]?.credits.map((credit) => credit.name?.nameText?.text) || [];
 			const genres = element.node.titleGenres?.genres.map((genre) => genre.genre?.text) || [];
+			const trailer = "https://www.youtube.com/results?search_query=" + element.node.id;
 
 			return {
 				id: id,
@@ -71,14 +74,13 @@ const fetchCineData = async () => {
 				rating: rating,
 				actors: actors.slice(0, 2),
 				genres: genres,
+				trailer: trailer,
 			};
 		});
 		return { filteredMovies, filteredTvShows };
 	}
-
 	return dataFilter(cineData);
 };
 
 const { filteredMovies: popularMovies, filteredTvShows: popularTvShows } = await fetchCineData();
-
 export { popularMovies, popularTvShows };

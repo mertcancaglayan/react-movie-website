@@ -1255,6 +1255,7 @@ function filter(movies) {
 			releaseYear: element.year_started || element.year || "N/A",
 			actors: element.stars ? element.stars.slice(0, 3) : "N/A",
 			genres: element.genres ? element.genres.map((genre) => genre) : [],
+			trailer: "https://www.youtube.com/watch?v=" + element.youtube_trailer_key,
 		};
 	});
 }

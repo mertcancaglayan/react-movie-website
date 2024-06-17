@@ -2,31 +2,33 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	width: 80%;
+	width: 100%;
 	height: max-content;
-	margin: 25px 0 15px;
+	margin: 40px 0 40px;
 }
 
 .genresContainer ul {
 	display: flex;
-    flex-wrap: wrap;
+	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
-	width: 95%;
-    height: 100%;
+	width: 80%;
+	height: 100%;
 	gap: 8px 5px;
-}
-.genresContainer ul .genreBtn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
 	list-style-type: none;
-	list-style: none;
+}
+
+.genresContainer ul .genreBtn {
+	background-color: transparent;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	border: 1px solid red;
 	cursor: pointer;
 	transition: 0.3s ease-in-out;
-    padding: 5px;
-    height: 35px;
+	padding: 5px;
+	text-decoration: none;
+	height: 35px;
 }
 
 .genresContainer ul .short {
@@ -154,7 +156,8 @@
 }
 
 .genresContainer ul .horror:hover {
-	background-color: rgb(0, 0, 0); /* Black */
+	color: black;
+	background-color: rgb(255, 255, 255); /* White */
 }
 
 .genresContainer ul .romance:hover {

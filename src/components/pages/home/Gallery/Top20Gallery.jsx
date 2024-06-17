@@ -2,10 +2,10 @@ import React, { useState } from "react";
 import { faTrophy } from "@fortawesome/free-solid-svg-icons";
 import topRatedMoviesData from "../../../../data/topRatedMovies";
 import topRatedTvShowsData from "../../../../data/topRatedTvShows";
-import GalleryCard from "./GalleryCard";
+import GalleryCard from "../../../GalleryCard/GalleryCard";
 import GalleryHeader from "./GalleryHeader";
 
-const Top20Gallery = () => {
+const Top20Gallery = ({ onCardClick }) => {
 	const top20Movies = topRatedMoviesData.slice(0, 20);
 	const top20TvShows = topRatedTvShowsData.slice(0, 20);
 	const [top20Category, setTop20Category] = useState(top20Movies);
@@ -17,7 +17,7 @@ const Top20Gallery = () => {
 	return (
 		<section className="gallery">
 			<GalleryHeader title="Top 20" icon={faTrophy} onNavigate={handleNavigation} />
-			<GalleryCard category={top20Category} />
+			<GalleryCard category={top20Category} onCardClick={onCardClick} />
 		</section>
 	);
 };
