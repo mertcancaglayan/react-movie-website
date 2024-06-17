@@ -2,7 +2,7 @@ const genresData = [
 	{ _id: "1", link: "short", name: "Short" },
 	{ _id: "2", link: "western", name: "Western" },
 	{ _id: "3", link: "sport", name: "Sport" },
-	{ _id: "4", link: "new", name: "New & Popular" },
+	{ _id: "4", link: "new-popular", name: "New & Popular" },
 	{ _id: "5", link: "war", name: "War" },
 	{ _id: "6", link: "action", name: "Action" },
 	{ _id: "7", link: "comedy", name: "Comedy" },
@@ -21,6 +21,7 @@ const genresData = [
 	{ _id: "20", link: "musical", name: "Musical" },
 	{ _id: "21", link: "biography", name: "Biography" },
 	{ _id: "22", link: "history", name: "History" },
+	{ _id: "23", link: "all", name: "All" },
 ];
 
 export default genresData;

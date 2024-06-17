@@ -10,7 +10,7 @@ const recomendedTVShows = [
 		imdb_rating: "9",
 		vote_count: "2",
 		popularity: "1.96",
-		youtube_trailer_key: "",
+		youtube_trailer_key: "mnd7sFt5c3A",
 		rated: "PG-13",
 		runtime: 90,
 		genres: ["Horror", "Sci-Fi"],
@@ -47,7 +47,7 @@ const recomendedTVShows = [
 		rated: "TV-14",
 		runtime: 42,
 		year_started: 2019,
-		genres: ["Fantasy", "Science-Fiction", "Action", "Adventure", "Drama", "Western", "Science-fiction"],
+		genres: ["Fantasy", "Sci-Fi", "Action", "Adventure", "Drama", "Western", "Sci-Fi"],
 		stars: [
 			"Pedro Pascal",
 			"Katee Sackhoff",
@@ -165,7 +165,7 @@ const recomendedTVShows = [
 		rated: "TV-MA",
 		runtime: 60,
 		year_started: 2011,
-		genres: ["Fantasy", "Science-Fiction", "Drama", "Mystery", "Horror", "Thriller", "Science-fiction"],
+		genres: ["Fantasy", "Sci-Fi", "Drama", "Mystery", "Horror", "Thriller", "Sci-Fi"],
 		stars: [
 			"Daniel Lapaine",
 			"Hannah John-Kamen",
@@ -203,7 +203,7 @@ const recomendedTVShows = [
 		year_started: 2019,
 		genres: [
 			"Fantasy",
-			"Science-Fiction",
+			"Sci-Fi",
 			"Action",
 			"Adventure",
 			"Superhero",
@@ -263,6 +263,7 @@ function filter(movies) {
 			releaseYear: element.year_started || element.year || "N/A",
 			actors: element.stars ? element.stars.slice(0, 3) : "N/A",
 			genres: element.genres ? element.genres.map((genre) => genre) : [],
+			trailer: "https://www.youtube.com/watch?v=" + element.youtube_trailer_key,
 		};
 	});
 }

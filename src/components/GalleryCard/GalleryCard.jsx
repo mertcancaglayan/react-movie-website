@@ -1,12 +1,12 @@
 import React from "react";
-import Tooltip from "./Tooltip";
+import Tooltip from "../Tooltip/Tooltip";
 import "./GalleryCard.css";
 
-const GalleryCard = React.memo(({ category }) => {
+const GalleryCard = React.memo(({ category, onCardClick }) => {
 	return (
 		<>
 			{category.map((element, index) => (
-				<div className="galleryCard" key={element.id || index}>
+				<div className="galleryCard" key={element.id || index} onClick={() => onCardClick(element)}>
 					<div className="imgContainer">
 						<img loading="lazy" src={element.img} alt={`${element.title} img`} />
 					</div>
@@ -21,5 +21,6 @@ const GalleryCard = React.memo(({ category }) => {
 		</>
 	);
 });
+
 
 export default GalleryCard;

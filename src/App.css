@@ -1,18 +1,29 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Assistant:wght@200..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Assistant:wght@200..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
 
 * {
-    margin: 0; padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
 }
 
 body {
-    background-image: url(images/movie-background-collage.jpg);
-    background-size: cover;
-    height: fit-content;
+	background: rgb(48, 34, 59);
+	background: linear-gradient(
+		90deg,
+		rgba(48, 34, 59, 1) 10%,
+		rgba(70, 65, 145, 1) 32%,
+		rgba(65, 60, 112, 1) 46%,
+		rgba(44, 32, 62, 1) 65%,
+		rgba(74, 30, 96, 1) 90%,
+		rgba(27, 27, 116, 1) 100%
+	);
+
+	height: fit-content;
+	overflow-x: hidden;
 }
 
 body::-webkit-scrollbar {
-    display: none;
+	display: none;
 }
