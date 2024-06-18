@@ -1,0 +1,17 @@
+.footerBottom {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+
+.footerBottom p {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.footerBottom p span {
+	font-weight: 700;
+	margin: 0 5px;
+}

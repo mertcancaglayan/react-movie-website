@@ -1,0 +1,23 @@
+.footerNav {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	margin: 20px 0;
+}
+
+.footerNav ul {
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+	list-style-type: none;
+}
+
+.footerNav ul li a {
+	text-decoration: none;
+}
+
+.footerNav ul li a:hover {
+	text-decoration: underline;
+}
+
