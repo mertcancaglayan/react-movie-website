@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { useSearchParams } from "react-router-dom";
 import { popularMovies, popularTvShows } from "../../../data/fetchMovieData";
 import topRatedMovies from "../../../data/topRatedMovies";
