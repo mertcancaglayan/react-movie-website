@@ -5,11 +5,23 @@ import PopupCard from "../../PopupCard";
 import "./index.css";
 
 function Favorites() {
-	const [likedShows, setLikedShows] = useState(JSON.parse(localStorage.getItem("likedShows")) || []);
+	const [likedShows, setLikedShows] = useState(() => {
+		try {
+			return JSON.parse(localStorage.getItem("likedShows")) || [];
+		} catch (e) {
+			console.error("Could not parse likedShows from localStorage", e);
+			return [];
+		}
+	});
+
 	const [selected, setSelected] = useState(null);
 
 	useEffect(() => {
-		localStorage.setItem("likedShows", JSON.stringify(likedShows));
+		try {
+			localStorage.setItem("likedShows", JSON.stringify(likedShows));
+		} catch (e) {
+			console.error("Could not set likedShows in localStorage", e);
+		}
 	}, [likedShows]);
 
 	const handleCardClick = (movie) => {
@@ -24,9 +36,11 @@ function Favorites() {
 		<section className="favoriteSection">
 			<h3 className="favTitle">Favorites</h3>
 			<GalleryCard category={likedShows} onCardClick={handleCardClick} />
-			<PopupOverlay show={selected} onClose={handleClosePopup}>
-				{selected && <PopupCard show={selected} onClose={handleClosePopup} />}
-			</PopupOverlay>
+			{selected && (
+				<PopupOverlay show={selected} onClose={handleClosePopup}>
+					<PopupCard show={selected} onClose={handleClosePopup} />
+				</PopupOverlay>
+			)}
 		</section>
 	);
 }
