@@ -32,13 +32,25 @@ function Favorites() {
 		setSelected(null);
 	};
 
+	const removeFromFavorites = (movie) => {
+		setLikedShows((prevLikedShows) => {
+			const updatedShows = prevLikedShows.filter((show) => show.id !== movie.id);
+			localStorage.setItem("likedShows", JSON.stringify(updatedShows));
+			return updatedShows;
+		});
+	};
+
 	return (
 		<section className="favoriteSection">
 			<h3 className="favTitle">Favorites</h3>
 			<GalleryCard category={likedShows} onCardClick={handleCardClick} />
 			{selected && (
 				<PopupOverlay show={selected} onClose={handleClosePopup}>
-					<PopupCard show={selected} onClose={handleClosePopup} />
+					<PopupCard
+						show={selected}
+						onClose={handleClosePopup}
+						onRemove={removeFromFavorites}
+					/>
 				</PopupOverlay>
 			)}
 		</section>
