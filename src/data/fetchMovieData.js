@@ -12,8 +12,8 @@ const fetchCineData = async () => {
 			language: "en-US",
 		},
 		headers: {
-			"X-RapidAPI-Key": "6a0dfd145amsh7ed63ab08d61076p170067jsne5d4c0a7dc9e",
-			"X-RapidAPI-Host": "online-movie-database.p.rapidapi.com",
+			"x-rapidapi-key": "0a41c8a7f0msh9e94d624b13e7cfp1dc07fjsn6c14f058c263",
+			"x-rapidapi-host": "online-movie-database.p.rapidapi.com",
 		},
 	};
 
