@@ -15,10 +15,10 @@ const Top20Gallery = ({ onCardClick }) => {
 	};
 
 	return (
-		<section className="gallery">
+		<article className="gallery">
 			<GalleryHeader title="Top 20" icon={faTrophy} onNavigate={handleNavigation} />
 			<GalleryCard category={top20Category} onCardClick={onCardClick} />
-		</section>
+		</article>
 	);
 };
 

@@ -13,10 +13,10 @@ const RecommendedGallery = ({ onCardClick }) => {
     };
 
     return (
-        <section className="gallery">
+        <article className="gallery">
             <GalleryHeader title="Recommended" icon={faThumbsUp} onNavigate={handleNavigation} />
             <GalleryCard category={recommendedCategory} onCardClick={onCardClick}/>
-        </section>
+        </article>
     );
 };
 

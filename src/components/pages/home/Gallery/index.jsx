@@ -18,14 +18,14 @@ function Gallery() {
 	};
 
 	return (
-		<main>
+		<section>
 			<PopularGallery onCardClick={handleCardClick} />
 			<RecommendedGallery onCardClick={handleCardClick} />
 			<Top20Gallery onCardClick={handleCardClick} />
 			<PopupOverlay show={selectedShow} onClose={handleClosePopup}>
 				{selectedShow && <PopupCard show={selectedShow} />}
 			</PopupOverlay>
-		</main>
+		</section>
 	);
 }
 

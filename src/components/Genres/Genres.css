@@ -211,3 +211,29 @@
 .genresContainer ul .history:hover {
 	background-color: rgb(160, 82, 45); /* Sienna */
 }
+
+@media (max-width: 768px) {
+	.genresContainer {
+		margin: 20px 0 20px;
+	}
+
+	.genresContainer ul {
+		gap: 4px 2px;
+	}
+
+	.genresContainer ul .genreBtn {
+		height: 20px;
+		font-size: 0.7rem;
+	}
+}
+
+@media (max-width: 480px) {
+	.genresContainer {
+		margin: 12px 0 12px;
+	}
+
+	.genresContainer ul .genreBtn {
+		height: 15px;
+		font-size: 0.5rem;
+	}
+}
