@@ -1,15 +1,16 @@
 .favoriteSection {
-	margin-top: 150px;
+	margin-top: 40px;
 	display: flex;
 	flex-wrap: wrap;
 	width: 100%;
 	justify-content: center;
 	align-items: center;
 }
+
 .favTitle {
 	display: flex;
 	justify-content: center;
 	color: aliceblue;
-	font-size: 10vh;
+	font-size: 5vw;
 	width: 100%;
 }

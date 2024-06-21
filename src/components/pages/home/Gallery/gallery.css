@@ -6,20 +6,3 @@
 	justify-content: center;
 }
 
-@media screen and (max-width: 1444px) {
-	.banner {
-		height: 70vh;
-	}
-}
-
-@media screen and (max-width: 1024px) and (min-width: 769px) {
-	.banner {
-		height: 60vh;
-	}
-}
-
-@media screen and (max-width: 768px) {
-	.banner {
-		height: 40vh;
-	}
-}

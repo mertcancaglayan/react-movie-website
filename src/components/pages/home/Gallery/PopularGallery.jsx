@@ -13,10 +13,10 @@ const PopularGallery = ({ onCardClick }) => {
 
 
 	return (
-		<section className="gallery">
+		<article className="gallery">
 			<GalleryHeader title="Popular" icon={faStar} onNavigate={handleNavigation} />
 			<GalleryCard category={popularCategory} onCardClick={onCardClick}/>
-		</section>
+		</article>
 	);
 };
 

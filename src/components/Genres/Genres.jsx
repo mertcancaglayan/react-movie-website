@@ -4,7 +4,7 @@ import "./Genres.css";
 
 function Genres({ onGenreSelect }) {
 	return (
-		<aside className="genresContainer">
+		<div className="genresContainer">
 			<ul>
 				{genresData.map((data, index) => (
 					<li key={data._id}>
@@ -17,7 +17,7 @@ function Genres({ onGenreSelect }) {
 					</li>
 				))}
 			</ul>
-		</aside>
+		</div>
 	);
 }
 
