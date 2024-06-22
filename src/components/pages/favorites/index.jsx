@@ -43,14 +43,14 @@ function Favorites() {
 	return (
 		<section className="favoriteSection">
 			<h3 className="favTitle">Favorites</h3>
-			<GalleryCard category={likedShows} onCardClick={handleCardClick} />
+			{likedShows.length > 0 ? (
+				<GalleryCard category={likedShows} onCardClick={handleCardClick} />
+			) : (
+				<p>No favorite shows found.</p>
+			)}
 			{selected && (
 				<PopupOverlay show={selected} onClose={handleClosePopup}>
-					<PopupCard
-						show={selected}
-						onClose={handleClosePopup}
-						onRemove={removeFromFavorites}
-					/>
+					<PopupCard show={selected} onClose={handleClosePopup} onRemove={removeFromFavorites} />
 				</PopupOverlay>
 			)}
 		</section>
