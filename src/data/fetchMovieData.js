@@ -1,4 +1,5 @@
 import axios from "axios";
+import popularsData from "./popularsData";
 
 const fetchCineData = async () => {
 	let cineData;
@@ -22,7 +23,7 @@ const fetchCineData = async () => {
 		cineData = response.data;
 	} catch (error) {
 		console.error(error);
-		return { movies: [], tvShows: [] };
+		cineData = popularsData;
 	}
 
 	function dataFilter(cineData) {

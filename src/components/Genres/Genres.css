@@ -212,6 +212,99 @@
 	background-color: rgb(160, 82, 45); /* Sienna */
 }
 
+.genresContainer ul .genreBtn.selected {
+	background-color: red;
+}
+
+.genresContainer ul .short.selected {
+	background-color: rgb(114, 91, 91); /* Dark Brown */
+}
+
+.genresContainer ul .western.selected {
+	background-color: rgb(165, 42, 42); /* Brown */
+}
+
+.genresContainer ul .sport.selected {
+	background-color: rgb(34, 139, 34); /* Forest Green */
+}
+
+.genresContainer ul .new-popular.selected {
+	background-color: rgb(255, 69, 0); /* Orange Red */
+}
+
+.genresContainer ul .war.selected {
+	background-color: rgb(128, 0, 0); /* Maroon */
+}
+
+.genresContainer ul .action.selected {
+	background-color: rgb(255, 0, 0); /* Red */
+}
+
+.genresContainer ul .comedy.selected {
+	background-color: rgb(255, 215, 0); /* Gold */
+}
+
+.genresContainer ul .drama.selected {
+	background-color: rgb(75, 0, 130); /* Indigo */
+}
+
+.genresContainer ul .horror.selected {
+	color: black;
+	background-color: rgb(255, 255, 255); /* White */
+}
+
+.genresContainer ul .romance.selected {
+	background-color: rgb(255, 105, 180); /* Hot Pink */
+}
+
+.genresContainer ul .sci-fi.selected {
+	background-color: rgb(0, 191, 255); /* Deep Sky Blue */
+}
+
+.genresContainer ul .documentary.selected {
+	background-color: rgb(85, 107, 47); /* Dark Olive Green */
+}
+
+.genresContainer ul .thriller.selected {
+	background-color: rgb(128, 128, 0); /* Olive */
+}
+
+.genresContainer ul .fantasy.selected {
+	background-color: rgb(138, 43, 226); /* Blue Violet */
+}
+
+.genresContainer ul .mystery.selected {
+	background-color: rgb(47, 79, 79); /* Dark Slate Gray */
+}
+
+.genresContainer ul .animation.selected {
+	background-color: rgb(255, 20, 147); /* Deep Pink */
+}
+
+.genresContainer ul .adventure.selected {
+	background-color: rgb(0, 128, 128); /* Teal */
+}
+
+.genresContainer ul .crime.selected {
+	background-color: rgb(139, 69, 19); /* Saddle Brown */
+}
+
+.genresContainer ul .family.selected {
+	background-color: rgb(240, 230, 140); /* Khaki */
+}
+
+.genresContainer ul .musical.selected {
+	background-color: rgb(218, 112, 214); /* Orchid */
+}
+
+.genresContainer ul .biography.selected {
+	background-color: rgb(210, 105, 30); /* Chocolate */
+}
+
+.genresContainer ul .history.selected {
+	background-color: rgb(160, 82, 45); /* Sienna */
+}
+
 @media (max-width: 768px) {
 	.genresContainer {
 		margin: 20px 0 20px;
